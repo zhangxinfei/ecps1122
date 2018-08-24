@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.itcast.mapper.EbAdministratorsMapper" >
+  <resultMap id="BaseResultMap" type="cn.itcast.model.Administrators" >
+    <id column="administrators_id" property="administratorsId" jdbcType="INTEGER" />
+    <result column="administrators_name" property="administratorsName" jdbcType="VARCHAR" />
+    <result column="administrators_number" property="administratorsNumber" jdbcType="INTEGER" />
+    <result column="administrators_nickname" property="administratorsNickname" jdbcType="VARCHAR" />
+    <result column="administrators_iphone" property="administratorsIphone" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    administrators_id, administrators_name, administrators_number, administrators_nickname, 
+    administrators_iphone
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from Administrators
+    where administrators_id = #{administratorsId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from Administrators
+    where administrators_id = #{administratorsId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.itcast.model.Administrators" >
+    insert into Administrators (administrators_id, administrators_name, 
+      administrators_number, administrators_nickname, 
+      administrators_iphone)
+    values (#{administratorsId,jdbcType=INTEGER}, #{administratorsName,jdbcType=VARCHAR}, 
+      #{administratorsNumber,jdbcType=INTEGER}, #{administratorsNickname,jdbcType=VARCHAR}, 
+      #{administratorsIphone,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.itcast.model.Administrators" >
+    insert into Administrators
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="administratorsId != null" >
+        administrators_id,
+      </if>
+      <if test="administratorsName != null" >
+        administrators_name,
+      </if>
+      <if test="administratorsNumber != null" >
+        administrators_number,
+      </if>
+      <if test="administratorsNickname != null" >
+        administrators_nickname,
+      </if>
+      <if test="administratorsIphone != null" >
+        administrators_iphone,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="administratorsId != null" >
+        #{administratorsId,jdbcType=INTEGER},
+      </if>
+      <if test="administratorsName != null" >
+        #{administratorsName,jdbcType=VARCHAR},
+      </if>
+      <if test="administratorsNumber != null" >
+        #{administratorsNumber,jdbcType=INTEGER},
+      </if>
+      <if test="administratorsNickname != null" >
+        #{administratorsNickname,jdbcType=VARCHAR},
+      </if>
+      <if test="administratorsIphone != null" >
+        #{administratorsIphone,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.itcast.model.Administrators" >
+    update Administrators
+    <set >
+      <if test="administratorsName != null" >
+        administrators_name = #{administratorsName,jdbcType=VARCHAR},
+      </if>
+      <if test="administratorsNumber != null" >
+        administrators_number = #{administratorsNumber,jdbcType=INTEGER},
+      </if>
+      <if test="administratorsNickname != null" >
+        administrators_nickname = #{administratorsNickname,jdbcType=VARCHAR},
+      </if>
+      <if test="administratorsIphone != null" >
+        administrators_iphone = #{administratorsIphone,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where administrators_id = #{administratorsId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.itcast.model.Administrators" >
+    update Administrators
+    set administrators_name = #{administratorsName,jdbcType=VARCHAR},
+      administrators_number = #{administratorsNumber,jdbcType=INTEGER},
+      administrators_nickname = #{administratorsNickname,jdbcType=VARCHAR},
+      administrators_iphone = #{administratorsIphone,jdbcType=VARCHAR}
+    where administrators_id = #{administratorsId,jdbcType=INTEGER}
+  </update>
+</mapper>

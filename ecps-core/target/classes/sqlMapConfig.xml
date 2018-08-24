@@ -1,0 +1,16 @@
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!--<mappers>-->
+		<!--<mapper resource="cn/itcast/mapper/EbUserMapper.xml"/>-->
+		<!--<mapper resource="cn/itcast/mapper/EbAdministratorsMapper.xml"/>-->
+		<!--<mapper resource="cn/itcast/mapper/EbBookMapper.xml"/>-->
+		<!--<mapper resource="cn/itcast/mapper/EbCommodityMapper.xml"/>-->
+		<!--<mapper resource="cn/itcast/mapper/EbCommoditytypeMapper.xml"/>-->
+		<!--<mapper resource="cn/itcast/mapper/EbOrderMapper.xml"/>-->
+		<!--<mapper resource="cn/itcast/mapper/EbShoppingMapper.xml"/>-->
+	<!--</mappers>-->
+
+</configuration>
