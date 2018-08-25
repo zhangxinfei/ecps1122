@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29fde7f8-b259-4399-be34-de31f247956d" name="Default" comment="" />
+    <list default="true" id="29fde7f8-b259-4399-be34-de31f247956d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/ecps-console.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/ecps-console.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/classes/cn/itcast/controller/EbUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/ecps-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/ecps-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbAdministratorsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbAdministratorsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/dao/EbAdministratorsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/dao/EbUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbAdministratorsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbBookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbCommodityMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbCommoditytypeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbOrderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbShoppingMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Administrators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commodity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commoditytype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Shopping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/EbAdministratorsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/EbUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/impl/EbAdministratorsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/impl/EbUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/EcpsConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/test-classes/cn/itcast/service/EbUserServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-image/ecps-image.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-image/ecps-image.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-portal/ecps-portal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-portal/ecps-portal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps1122.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps1122.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ecps-image/target/" />
     <ignored path="$PROJECT_DIR$/ecps-portal/target/" />
@@ -15,7 +49,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecps-core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -25,6 +78,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbAdministratorsServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -51,7 +105,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -63,76 +116,34 @@
             <path>
               <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
-              <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-portal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
-              <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
-              <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
-              <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
-              <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
-              <item name="ecps-core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
-              <item name="ecps-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
-              <item name="ecps-core" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
-              <item name="ecps-core" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
-              <item name="ecps-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,7 +152,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -158,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.tomcat7">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -177,6 +188,28 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="maven" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -200,6 +233,81 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ecps-portal:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ecps1122_6" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55039" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ecps-portal:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.maven" />
+      <item itemvalue="Tomcat Server.tomcat7" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -211,47 +319,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535089696577</updated>
-      <workItem from="1535089697908" duration="1473000" />
+      <workItem from="1535089697908" duration="2279000" />
+      <workItem from="1535160929562" duration="1144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1473000" />
+    <option name="totallyTimeSpent" value="3423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
-      <window_info id="Web" side_tool="true" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.47" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +372,37 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbAdministratorsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/EbUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/EbAdministratorsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ecps-console/src/main/resources/cssHorizontalMenu.vm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-103" />
@@ -269,25 +411,98 @@
     <entry file="file://$PROJECT_DIR$/ecps-console/src/main/resources/decorators.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/sqlMapGenerator.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/EbUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/EbAdministratorsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbAdministratorsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/sqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArquillianSettingsConfigurable.UI">
         <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ecps-console:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -320,6 +535,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ecps1122</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -334,6 +562,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

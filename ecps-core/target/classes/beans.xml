@@ -32,10 +32,7 @@
 	<!--mapper自动扫描器-->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="cn.itcast.mapper"/>
-
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
-
-
 	</bean>
 	<!---->
 	<bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
