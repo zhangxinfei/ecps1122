@@ -1,6 +1,6 @@
-package cn.itcast.model;
+package cn.itcast.model.params;
 
-public class Shopping {
+public class ShoppingParams {
     private Integer buyId;
 
     private Integer buyNumber;

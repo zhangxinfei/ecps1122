@@ -1,6 +1,6 @@
-package cn.itcast.model;
+package cn.itcast.model.params;
 
-public class Commoditytype {
+public class CommoditytypeParams {
     private Integer commoditytypeId;
 
     private String commodityType;

@@ -1,8 +1,8 @@
-package cn.itcast.model;
+package cn.itcast.model.params;
 
 import java.util.Date;
 
-public class User {
+public class UserParams {
     private Integer userId;
 
     private String userName;

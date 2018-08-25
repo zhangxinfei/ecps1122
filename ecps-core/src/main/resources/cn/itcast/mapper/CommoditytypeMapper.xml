@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.itcast.mapper.CommoditytypeMapper" >
+  <resultMap id="BaseResultMap" type="cn.itcast.model.Commoditytype" >
+    <id column="commodityType_id" property="commoditytypeId" jdbcType="INTEGER" />
+    <result column="commodity_type" property="commodityType" jdbcType="VARCHAR" />
+    <result column="commodity_status" property="commodityStatus" jdbcType="INTEGER" />
+    <result column="administrators_id" property="administratorsId" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    commodityType_id, commodity_type, commodity_status, administrators_id
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from CommodityType
+    where commodityType_id = #{commoditytypeId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from CommodityType
+    where commodityType_id = #{commoditytypeId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.itcast.model.Commoditytype" >
+    insert into CommodityType (commodityType_id, commodity_type, commodity_status, 
+      administrators_id)
+    values (#{commoditytypeId,jdbcType=INTEGER}, #{commodityType,jdbcType=VARCHAR}, #{commodityStatus,jdbcType=INTEGER}, 
+      #{administratorsId,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.itcast.model.Commoditytype" >
+    insert into CommodityType
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="commoditytypeId != null" >
+        commodityType_id,
+      </if>
+      <if test="commodityType != null" >
+        commodity_type,
+      </if>
+      <if test="commodityStatus != null" >
+        commodity_status,
+      </if>
+      <if test="administratorsId != null" >
+        administrators_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="commoditytypeId != null" >
+        #{commoditytypeId,jdbcType=INTEGER},
+      </if>
+      <if test="commodityType != null" >
+        #{commodityType,jdbcType=VARCHAR},
+      </if>
+      <if test="commodityStatus != null" >
+        #{commodityStatus,jdbcType=INTEGER},
+      </if>
+      <if test="administratorsId != null" >
+        #{administratorsId,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.itcast.model.Commoditytype" >
+    update CommodityType
+    <set >
+      <if test="commodityType != null" >
+        commodity_type = #{commodityType,jdbcType=VARCHAR},
+      </if>
+      <if test="commodityStatus != null" >
+        commodity_status = #{commodityStatus,jdbcType=INTEGER},
+      </if>
+      <if test="administratorsId != null" >
+        administrators_id = #{administratorsId,jdbcType=INTEGER},
+      </if>
+    </set>
+    where commodityType_id = #{commoditytypeId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.itcast.model.Commoditytype" >
+    update CommodityType
+    set commodity_type = #{commodityType,jdbcType=VARCHAR},
+      commodity_status = #{commodityStatus,jdbcType=INTEGER},
+      administrators_id = #{administratorsId,jdbcType=INTEGER}
+    where commodityType_id = #{commoditytypeId,jdbcType=INTEGER}
+  </update>
+</mapper>

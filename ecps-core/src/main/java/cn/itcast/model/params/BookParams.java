@@ -1,8 +1,8 @@
-package cn.itcast.model;
+package cn.itcast.model.params;
 
 import java.util.Date;
 
-public class Book {
+public class BookParams {
     private Integer bookId;
 
     private String bookName;

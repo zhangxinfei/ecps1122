@@ -7,84 +7,228 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29fde7f8-b259-4399-be34-de31f247956d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ecps_console_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ecps_console_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ecps_portal_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ecps_portal_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc14_10_2_0_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc14_10_2_0_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_benas_cb4j_cb4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_benas_cb4j_cb4j_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jbpm_jbpm4_jbpm_api_4_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jbpm_jbpm4_jbpm_api_4_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jbpm_jbpm4_jbpm_log_4_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jbpm_jbpm4_jbpm_log_4_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_0_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_scheduling_quartz_1_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_scheduling_quartz_1_6_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/enums/WizardAuditEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/CommoditytypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/DialogueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Dialogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/AdministratorsParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/BookParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/CommodityParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/CommoditytypeParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/DialogueParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/OrderParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/ShoppingParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/UserParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/result/ResultModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/util/ResultUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/CommoditytypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/DialogueMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/ecps-console.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/ecps-console.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/shop-console.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/EbUserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/admin/activeUsers.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/admin/siteConfigShow.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/admin/userList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/card/addCard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/card/addCatItemCard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/card/editCard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/card/list.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/ceshi/User.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/ceshi/ceshi.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/ceshi1.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/addCatItem.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/addItem.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/addbrand.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/addcat.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/addfeature.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/cattree.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/checkItem.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/editItem.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/editItemSpec.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/editbrand.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/editcat.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/editfeature.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/listAudit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/listCardCat.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/listbrand.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/listcat.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/listfeature.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/recycleList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/syncData.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/transparentItemList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/item/viewItem.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/jbpm/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/log/backlog.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/guestOrder/listGuestOrder.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderAbnormal/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderAbnormal/orderAbnormal.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderCall/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderCall/orderCall.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderCard/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderCard/orderCard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderCrm/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderCrm/orderCrm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderDelivery/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderDelivery/orderDelivery.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderDelivery1/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderDelivery1/orderDelivery1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderInValid/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderInValid/orderInValid.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderPay/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderPay/orderPay.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderRR/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderRR/orderRR.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderReplace/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderReplace/orderReplace.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderReturn/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderReturn/orderReturn.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderRstock/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderRstock/orderRstock.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderSelf/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderSelf/orderSelf.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderStock/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderStock/orderStock.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderSucess/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderSucess/orderSucess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderSummary/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderSummary/editOrder.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderSummary/orderSummary.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderValid/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/orderValid/orderValid.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/shop/order/print.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/classes/cn/itcast/controller/EbUserController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/classes/cn/itcast/controller/EbUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/lib/ecps-core-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/lib/ecps-core-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-3.2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/admin/activeUsers.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/admin/siteConfigShow.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/admin/userList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/card/addCard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/card/addCatItemCard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/card/editCard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/card/list.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/ceshi/User.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/ceshi/ceshi.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/ceshi1.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/ecps-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/ecps-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/EbAdministratorsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/EbBookMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/EbCommodityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/addCatItem.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/addItem.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/addbrand.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/addcat.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/addfeature.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/cattree.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/checkItem.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/editItem.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/editItemSpec.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/editbrand.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/editcat.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/editfeature.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/listAudit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/listCardCat.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/listbrand.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/listcat.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/listfeature.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/recycleList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/syncData.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/transparentItemList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/item/viewItem.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/jbpm/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/log/backlog.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/guestOrder/listGuestOrder.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderAbnormal/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderAbnormal/orderAbnormal.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderCall/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderCall/orderCall.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderCard/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderCard/orderCard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderCrm/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderCrm/orderCrm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderDelivery/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderDelivery/orderDelivery.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderDelivery1/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderDelivery1/orderDelivery1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderInValid/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderInValid/orderInValid.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderPay/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderPay/orderPay.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderRR/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderRR/orderRR.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderReplace/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderReplace/orderReplace.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderReturn/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderReturn/orderReturn.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderRstock/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderRstock/orderRstock.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderSelf/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderSelf/orderSelf.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderStock/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderStock/orderStock.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderSucess/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderSucess/orderSucess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderSummary/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderSummary/editOrder.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderSummary/orderSummary.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderValid/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/orderValid/orderValid.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps-console-0.0.1-SNAPSHOT/WEB-INF/shop/order/print.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/EbAdministratorsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/AdministratorsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/EbBookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/EbCommodityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/CommodityMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/EbCommoditytypeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/EbOrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/EbShoppingMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/EbUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Commoditytype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/EbOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/EbShoppingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/ShoppingMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/EbUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Administrators.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Administrators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Commodity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Commodity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Commoditytype.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Commoditytype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Shopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Shopping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/EbAdministratorsService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/EbUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbAdministratorsServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbUserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/EbAdministratorsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/EbBookMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/EbCommodityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/EbAdministratorsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/AdministratorsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/EbBookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/BookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/EbCommodityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/CommodityMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/EbCommoditytypeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/EbOrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/EbShoppingMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/EbUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/generator.propertites" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/EbOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/EbShoppingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/ShoppingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/EbUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/resources/sqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/sqlMapGenerator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/resources/sqlMapGenerator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/src/test/java/cn/itcast/service/EbUserServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbAdministratorsMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbAdministratorsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbBookMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbBookMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbCommodityMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbCommodityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbCommoditytypeMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbCommoditytypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbOrderMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbOrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbShoppingMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbShoppingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbUserMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/EbUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/generator.propertites" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Administrators.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Administrators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commodity.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commodity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commoditytype.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commoditytype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Shopping.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Shopping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/EbAdministratorsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/EbUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/impl/EbUserServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/sqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/sqlMapGenerator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/sqlMapGenerator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-image/ecps-image.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-image/ecps-image.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-image/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-image/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-portal/ecps-portal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-portal/ecps-portal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-portal/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-portal/src/main/webapp/res/js/jquery-2.1.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps1122.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps1122.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/test-classes/cn/itcast/service/EbUserServiceTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ecps-image/target/" />
@@ -100,64 +244,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecps-core/pom.xml">
+      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="313" column="33" selection-start-line="313" selection-start-column="33" selection-end-line="313" selection-end-column="33" />
+            <state relative-caret-position="266">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="217" column="32" selection-start-line="217" selection-start-column="32" selection-end-line="217" selection-end-column="32" />
+            <state relative-caret-position="4757">
+              <caret line="259" column="2" selection-start-line="259" selection-start-column="2" selection-end-line="259" selection-end-column="2" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EbUploadController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/EbUploadController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-186">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqlMapConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/sqlMapConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-192" />
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -176,6 +291,26 @@
         <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbAdministratorsServiceImpl.java" />
         <option value="$PROJECT_DIR$/ecps-core/pom.xml" />
         <option value="$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/Shopping.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/resources/sqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/EbUserController.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/test/java/cn/itcast/service/EbUserServiceTest.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/enums/StatusEnum.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/ResultModel.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/AdministratorsParams.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/BookParams.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/CommodityParams.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/CommoditytypeParams.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/DialogueParms.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/DialogueParams.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/OrderParams.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/Shoppingparams.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/ShoppingParams.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/UserParams.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/util/ResultUtil.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/UserMapper.xml" />
       </list>
     </option>
   </component>
@@ -209,8 +344,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,8 +385,7 @@
               <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
@@ -259,7 +393,8 @@
               <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
@@ -302,17 +437,53 @@
               <item name="ecps-core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="params" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
-              <item name="ecps-image" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
-              <item name="ecps-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,10 +497,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3570595" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.itcast.model.params" />
+      <recent name="cn.itcast.enums" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper" />
+      <recent name="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast" />
+      <recent name="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper" />
+      <recent name="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -502,11 +685,12 @@
       <workItem from="1535089697908" duration="2279000" />
       <workItem from="1535160929562" duration="2952000" />
       <workItem from="1535165995342" duration="418000" />
+      <workItem from="1535166483897" duration="8510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5649000" />
+    <option name="totallyTimeSpent" value="14159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="0" />
@@ -523,19 +707,20 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.025" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.29" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.06" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28029078" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -543,7 +728,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,6 +737,33 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ecps-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6156">
+          <caret line="324" column="33" selection-start-line="324" selection-start-column="33" selection-end-line="324" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4123">
+          <caret line="217" column="32" selection-start-line="217" selection-start-column="32" selection-end-line="217" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ecps-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5947">
@@ -567,13 +778,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbAdministratorsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbAdministratorsServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -617,71 +822,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbAdministratorsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbAdministratorsServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/ecps-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="313" column="33" selection-start-line="313" selection-start-column="33" selection-end-line="313" selection-end-column="33" />
+        <state relative-caret-position="6156">
+          <caret line="324" column="33" selection-start-line="324" selection-start-column="33" selection-end-line="324" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecps-console/src/main/resources/decorators.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/EbUserController.java">
+    <entry file="file://$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/EbUploadController.java" />
+    <entry file="file://$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-console/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-14123" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="217" column="32" selection-start-line="217" selection-start-column="32" selection-end-line="217" selection-end-column="32" />
+        <state relative-caret-position="4274">
+          <caret line="225" column="32" selection-start-line="225" selection-start-column="32" selection-end-line="225" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/EbUploadController.java">
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/Shopping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="-474" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/CommodityMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/CommodityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/Shopping.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/EbUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/impl/EbUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        <state relative-caret-position="76">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/sqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml">
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/test/java/cn/itcast/service/EbUserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="2" selection-start-line="2" selection-end-line="57" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/CommodityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/CommoditytypeParams.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml">
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/DialogueParams.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/ShoppingParams.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/UserParams.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/OrderParams.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/CommodityParams.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/BookParams.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/AdministratorsParams.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/enums/WizardAuditEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192" />
+        <state relative-caret-position="322">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/util/EcpsConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/util/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/result/ResultModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/util/ResultUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/CommoditytypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4757">
+          <caret line="259" column="2" selection-start-line="259" selection-start-column="2" selection-end-line="259" selection-end-column="2" />
+        </state>
       </provider>
     </entry>
   </component>
@@ -749,7 +1070,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ecps-console</last-edited>
+          <last-edited>ecps-portal</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.itcast.mapper.OrderMapper" >
+  <resultMap id="BaseResultMap" type="cn.itcast.model.Order" >
+    <id column="order_id" property="orderId" jdbcType="INTEGER" />
+    <result column="order_number" property="orderNumber" jdbcType="INTEGER" />
+    <result column="order_total" property="orderTotal" jdbcType="VARCHAR" />
+    <result column="createtime" property="createtime" jdbcType="TIMESTAMP" />
+    <result column="administrators_id" property="administratorsId" jdbcType="INTEGER" />
+    <result column="commodity_id" property="commodityId" jdbcType="INTEGER" />
+    <result column="buy_number" property="buyNumber" jdbcType="INTEGER" />
+    <result column="updatetime" property="updatetime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="cn.itcast.model.Order" extends="BaseResultMap" >
+    <result column="order_describe" property="orderDescribe" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    order_id, order_number, order_total, createtime, administrators_id, commodity_id, 
+    buy_number, updatetime
+  </sql>
+  <sql id="Blob_Column_List" >
+    order_describe
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from Order
+    where order_id = #{orderId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from Order
+    where order_id = #{orderId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.itcast.model.Order" >
+    insert into Order (order_id, order_number, order_total, 
+      createtime, administrators_id, commodity_id, 
+      buy_number, updatetime, order_describe
+      )
+    values (#{orderId,jdbcType=INTEGER}, #{orderNumber,jdbcType=INTEGER}, #{orderTotal,jdbcType=VARCHAR}, 
+      #{createtime,jdbcType=TIMESTAMP}, #{administratorsId,jdbcType=INTEGER}, #{commodityId,jdbcType=INTEGER}, 
+      #{buyNumber,jdbcType=INTEGER}, #{updatetime,jdbcType=TIMESTAMP}, #{orderDescribe,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="cn.itcast.model.Order" >
+    insert into Order
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="orderId != null" >
+        order_id,
+      </if>
+      <if test="orderNumber != null" >
+        order_number,
+      </if>
+      <if test="orderTotal != null" >
+        order_total,
+      </if>
+      <if test="createtime != null" >
+        createtime,
+      </if>
+      <if test="administratorsId != null" >
+        administrators_id,
+      </if>
+      <if test="commodityId != null" >
+        commodity_id,
+      </if>
+      <if test="buyNumber != null" >
+        buy_number,
+      </if>
+      <if test="updatetime != null" >
+        updatetime,
+      </if>
+      <if test="orderDescribe != null" >
+        order_describe,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="orderId != null" >
+        #{orderId,jdbcType=INTEGER},
+      </if>
+      <if test="orderNumber != null" >
+        #{orderNumber,jdbcType=INTEGER},
+      </if>
+      <if test="orderTotal != null" >
+        #{orderTotal,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="administratorsId != null" >
+        #{administratorsId,jdbcType=INTEGER},
+      </if>
+      <if test="commodityId != null" >
+        #{commodityId,jdbcType=INTEGER},
+      </if>
+      <if test="buyNumber != null" >
+        #{buyNumber,jdbcType=INTEGER},
+      </if>
+      <if test="updatetime != null" >
+        #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="orderDescribe != null" >
+        #{orderDescribe,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.itcast.model.Order" >
+    update Order
+    <set >
+      <if test="orderNumber != null" >
+        order_number = #{orderNumber,jdbcType=INTEGER},
+      </if>
+      <if test="orderTotal != null" >
+        order_total = #{orderTotal,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        createtime = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="administratorsId != null" >
+        administrators_id = #{administratorsId,jdbcType=INTEGER},
+      </if>
+      <if test="commodityId != null" >
+        commodity_id = #{commodityId,jdbcType=INTEGER},
+      </if>
+      <if test="buyNumber != null" >
+        buy_number = #{buyNumber,jdbcType=INTEGER},
+      </if>
+      <if test="updatetime != null" >
+        updatetime = #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="orderDescribe != null" >
+        order_describe = #{orderDescribe,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where order_id = #{orderId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="cn.itcast.model.Order" >
+    update Order
+    set order_number = #{orderNumber,jdbcType=INTEGER},
+      order_total = #{orderTotal,jdbcType=VARCHAR},
+      createtime = #{createtime,jdbcType=TIMESTAMP},
+      administrators_id = #{administratorsId,jdbcType=INTEGER},
+      commodity_id = #{commodityId,jdbcType=INTEGER},
+      buy_number = #{buyNumber,jdbcType=INTEGER},
+      updatetime = #{updatetime,jdbcType=TIMESTAMP},
+      order_describe = #{orderDescribe,jdbcType=LONGVARCHAR}
+    where order_id = #{orderId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.itcast.model.Order" >
+    update Order
+    set order_number = #{orderNumber,jdbcType=INTEGER},
+      order_total = #{orderTotal,jdbcType=VARCHAR},
+      createtime = #{createtime,jdbcType=TIMESTAMP},
+      administrators_id = #{administratorsId,jdbcType=INTEGER},
+      commodity_id = #{commodityId,jdbcType=INTEGER},
+      buy_number = #{buyNumber,jdbcType=INTEGER},
+      updatetime = #{updatetime,jdbcType=TIMESTAMP}
+    where order_id = #{orderId,jdbcType=INTEGER}
+  </update>
+</mapper>

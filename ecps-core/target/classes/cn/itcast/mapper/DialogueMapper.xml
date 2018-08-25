@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.itcast.mapper.DialogueMapper" >
+  <resultMap id="BaseResultMap" type="cn.itcast.model.Dialogue" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="dialogue_user" property="dialogueUser" jdbcType="INTEGER" />
+    <result column="dialogue_friend" property="dialogueFriend" jdbcType="INTEGER" />
+    <result column="dialogue_type" property="dialogueType" jdbcType="VARCHAR" />
+    <result column="send_time" property="sendTime" jdbcType="TIMESTAMP" />
+    <result column="read_time" property="readTime" jdbcType="TIMESTAMP" />
+    <result column="dialogue_status" property="dialogueStatus" jdbcType="INTEGER" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="cn.itcast.model.Dialogue" extends="BaseResultMap" >
+    <result column="contentt" property="contentt" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, dialogue_user, dialogue_friend, dialogue_type, send_time, read_time, dialogue_status
+  </sql>
+  <sql id="Blob_Column_List" >
+    contentt
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from dialogue
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from dialogue
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.itcast.model.Dialogue" >
+    insert into dialogue (id, dialogue_user, dialogue_friend, 
+      dialogue_type, send_time, read_time, 
+      dialogue_status, contentt)
+    values (#{id,jdbcType=INTEGER}, #{dialogueUser,jdbcType=INTEGER}, #{dialogueFriend,jdbcType=INTEGER}, 
+      #{dialogueType,jdbcType=VARCHAR}, #{sendTime,jdbcType=TIMESTAMP}, #{readTime,jdbcType=TIMESTAMP}, 
+      #{dialogueStatus,jdbcType=INTEGER}, #{contentt,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.itcast.model.Dialogue" >
+    insert into dialogue
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="dialogueUser != null" >
+        dialogue_user,
+      </if>
+      <if test="dialogueFriend != null" >
+        dialogue_friend,
+      </if>
+      <if test="dialogueType != null" >
+        dialogue_type,
+      </if>
+      <if test="sendTime != null" >
+        send_time,
+      </if>
+      <if test="readTime != null" >
+        read_time,
+      </if>
+      <if test="dialogueStatus != null" >
+        dialogue_status,
+      </if>
+      <if test="contentt != null" >
+        contentt,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="dialogueUser != null" >
+        #{dialogueUser,jdbcType=INTEGER},
+      </if>
+      <if test="dialogueFriend != null" >
+        #{dialogueFriend,jdbcType=INTEGER},
+      </if>
+      <if test="dialogueType != null" >
+        #{dialogueType,jdbcType=VARCHAR},
+      </if>
+      <if test="sendTime != null" >
+        #{sendTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="readTime != null" >
+        #{readTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="dialogueStatus != null" >
+        #{dialogueStatus,jdbcType=INTEGER},
+      </if>
+      <if test="contentt != null" >
+        #{contentt,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.itcast.model.Dialogue" >
+    update dialogue
+    <set >
+      <if test="dialogueUser != null" >
+        dialogue_user = #{dialogueUser,jdbcType=INTEGER},
+      </if>
+      <if test="dialogueFriend != null" >
+        dialogue_friend = #{dialogueFriend,jdbcType=INTEGER},
+      </if>
+      <if test="dialogueType != null" >
+        dialogue_type = #{dialogueType,jdbcType=VARCHAR},
+      </if>
+      <if test="sendTime != null" >
+        send_time = #{sendTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="readTime != null" >
+        read_time = #{readTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="dialogueStatus != null" >
+        dialogue_status = #{dialogueStatus,jdbcType=INTEGER},
+      </if>
+      <if test="contentt != null" >
+        contentt = #{contentt,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="cn.itcast.model.Dialogue" >
+    update dialogue
+    set dialogue_user = #{dialogueUser,jdbcType=INTEGER},
+      dialogue_friend = #{dialogueFriend,jdbcType=INTEGER},
+      dialogue_type = #{dialogueType,jdbcType=VARCHAR},
+      send_time = #{sendTime,jdbcType=TIMESTAMP},
+      read_time = #{readTime,jdbcType=TIMESTAMP},
+      dialogue_status = #{dialogueStatus,jdbcType=INTEGER},
+      contentt = #{contentt,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.itcast.model.Dialogue" >
+    update dialogue
+    set dialogue_user = #{dialogueUser,jdbcType=INTEGER},
+      dialogue_friend = #{dialogueFriend,jdbcType=INTEGER},
+      dialogue_type = #{dialogueType,jdbcType=VARCHAR},
+      send_time = #{sendTime,jdbcType=TIMESTAMP},
+      read_time = #{readTime,jdbcType=TIMESTAMP},
+      dialogue_status = #{dialogueStatus,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

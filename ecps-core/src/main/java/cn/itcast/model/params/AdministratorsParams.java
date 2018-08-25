@@ -1,8 +1,8 @@
-package cn.itcast.model;
+package cn.itcast.model.params;
 
 import java.util.Date;
 
-public class Administrators {
+public class AdministratorsParams {
     private Integer administratorsId;
 
     private String administratorsName;

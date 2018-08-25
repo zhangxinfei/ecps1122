@@ -1,8 +1,8 @@
-package cn.itcast.model;
+package cn.itcast.model.params;
 
 import java.util.Date;
 
-public class Order {
+public class OrderParams {
     private Integer orderId;
 
     private Integer orderNumber;
