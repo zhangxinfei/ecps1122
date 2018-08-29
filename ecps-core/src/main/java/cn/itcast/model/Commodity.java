@@ -1,103 +1,103 @@
 package cn.itcast.model;
 
 public class Commodity {
-    private Integer commodityId;
+    private Integer commodity_id;
 
-    private String commodityName;
+    private String commodity_name;
 
-    private Long commodityPrice;
+    private Long commodity_price;
 
-    private Integer commodityNumber;
+    private Integer commodity_number;
 
-    private String commodityPhone;
+    private String commodity_phone;
 
-    private String commodityType;
+    private String commodity_type;
 
-    private String commodityDescribe;
+    private String commodity_describe;
 
-    private Integer userId;
+    private Integer user_id;
 
-    private Integer administratorsid;
+    private Integer administratorsId;
 
-    private Integer commodityStatus;
+    private Integer commodity_status;
 
-    public Integer getCommodityId() {
-        return commodityId;
+    public Integer getCommodity_id() {
+        return commodity_id;
     }
 
-    public void setCommodityId(Integer commodityId) {
-        this.commodityId = commodityId;
+    public void setCommodity_id(Integer commodity_id) {
+        this.commodity_id = commodity_id;
     }
 
-    public String getCommodityName() {
-        return commodityName;
+    public String getCommodity_name() {
+        return commodity_name;
     }
 
-    public void setCommodityName(String commodityName) {
-        this.commodityName = commodityName == null ? null : commodityName.trim();
+    public void setCommodity_name(String commodity_name) {
+        this.commodity_name = commodity_name == null ? null : commodity_name.trim();
     }
 
-    public Long getCommodityPrice() {
-        return commodityPrice;
+    public Long getCommodity_price() {
+        return commodity_price;
     }
 
-    public void setCommodityPrice(Long commodityPrice) {
-        this.commodityPrice = commodityPrice;
+    public void setCommodity_price(Long commodity_price) {
+        this.commodity_price = commodity_price;
     }
 
-    public Integer getCommodityNumber() {
-        return commodityNumber;
+    public Integer getCommodity_number() {
+        return commodity_number;
     }
 
-    public void setCommodityNumber(Integer commodityNumber) {
-        this.commodityNumber = commodityNumber;
+    public void setCommodity_number(Integer commodity_number) {
+        this.commodity_number = commodity_number;
     }
 
-    public String getCommodityPhone() {
-        return commodityPhone;
+    public String getCommodity_phone() {
+        return commodity_phone;
     }
 
-    public void setCommodityPhone(String commodityPhone) {
-        this.commodityPhone = commodityPhone == null ? null : commodityPhone.trim();
+    public void setCommodity_phone(String commodity_phone) {
+        this.commodity_phone = commodity_phone == null ? null : commodity_phone.trim();
     }
 
-    public String getCommodityType() {
-        return commodityType;
+    public String getCommodity_type() {
+        return commodity_type;
     }
 
-    public void setCommodityType(String commodityType) {
-        this.commodityType = commodityType == null ? null : commodityType.trim();
+    public void setCommodity_type(String commodity_type) {
+        this.commodity_type = commodity_type == null ? null : commodity_type.trim();
     }
 
-    public String getCommodityDescribe() {
-        return commodityDescribe;
+    public String getCommodity_describe() {
+        return commodity_describe;
     }
 
-    public void setCommodityDescribe(String commodityDescribe) {
-        this.commodityDescribe = commodityDescribe == null ? null : commodityDescribe.trim();
+    public void setCommodity_describe(String commodity_describe) {
+        this.commodity_describe = commodity_describe == null ? null : commodity_describe.trim();
     }
 
-    public Integer getUserId() {
-        return userId;
+    public Integer getUser_id() {
+        return user_id;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
+    public void setUser_id(Integer user_id) {
+        this.user_id = user_id;
     }
 
-    public Integer getAdministratorsid() {
-        return administratorsid;
+    public Integer getAdministratorsId() {
+        return administratorsId;
     }
 
-    public void setAdministratorsid(Integer administratorsid) {
-        this.administratorsid = administratorsid;
+    public void setAdministratorsId(Integer administratorsId) {
+        this.administratorsId = administratorsId;
     }
 
-    public Integer getCommodityStatus() {
-        return commodityStatus;
-    }
+    public Integer getCommodity_status() {
+    return commodity_status;
+}
 
-    public void setCommodityStatus(Integer commodityStatus) {
-        this.commodityStatus = commodityStatus;
+    public void setCommodity_status(Integer commodity_status) {
+        this.commodity_status = commodity_status;
     }
 }

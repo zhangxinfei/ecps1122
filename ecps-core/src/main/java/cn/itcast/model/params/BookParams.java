@@ -1,75 +1,88 @@
 package cn.itcast.model.params;
 
+import cn.itcast.model.Book;
+
 import java.util.Date;
 
 public class BookParams {
-    private Integer bookId;
+    private Book book;
 
-    private String bookName;
+    private Integer book_id;
 
-    private String bookWriter;
+    private String book_name;
 
-    private Date bookYear;
+    private String book_writer;
 
-    private String bookPress;
+    private Date book_year;
 
-    private String commodityType;
+    private String book_press;
 
-    private Integer commodityId;
+    private String commodity_type;
 
-    public Integer getBookId() {
-        return bookId;
+    private Integer commodity_id;
+
+    public Integer getBook_id() {
+        return book_id;
     }
 
-    public void setBookId(Integer bookId) {
-        this.bookId = bookId;
+    public void setBook_id(Integer book_id) {
+        this.book_id = book_id;
     }
 
-    public String getBookName() {
-        return bookName;
+    public String getBook_name() {
+        return book_name;
     }
 
-    public void setBookName(String bookName) {
-        this.bookName = bookName == null ? null : bookName.trim();
+    public void setBook_name(String book_name) {
+        this.book_name = book_name == null ? null : book_name.trim();
     }
 
-    public String getBookWriter() {
-        return bookWriter;
+    public String getBook_writer() {
+        return book_writer;
     }
 
-    public void setBookWriter(String bookWriter) {
-        this.bookWriter = bookWriter == null ? null : bookWriter.trim();
+    public void setBook_writer(String book_writer) {
+        this.book_writer = book_writer == null ? null : book_writer.trim();
     }
 
-    public Date getBookYear() {
-        return bookYear;
+    public Date getBook_year() {
+        return book_year;
     }
 
-    public void setBookYear(Date bookYear) {
-        this.bookYear = bookYear;
+    public void setBook_year(Date book_year) {
+        this.book_year = book_year;
     }
 
-    public String getBookPress() {
-        return bookPress;
+    public String getBook_press() {
+        return book_press;
     }
 
-    public void setBookPress(String bookPress) {
-        this.bookPress = bookPress == null ? null : bookPress.trim();
+    public void setBook_press(String book_press) {
+        this.book_press = book_press == null ? null : book_press.trim();
     }
 
-    public String getCommodityType() {
-        return commodityType;
+    public String getCommodity_type() {
+        return commodity_type;
     }
 
-    public void setCommodityType(String commodityType) {
-        this.commodityType = commodityType == null ? null : commodityType.trim();
+    public void setCommodity_type(String commodity_type) {
+        this.commodity_type = commodity_type == null ? null : commodity_type.trim();
     }
 
-    public Integer getCommodityId() {
-        return commodityId;
+    public Integer getCommodity_id() {
+        return commodity_id;
     }
 
-    public void setCommodityId(Integer commodityId) {
-        this.commodityId = commodityId;
+    public void setCommodity_id(Integer commodity_id) {
+        this.commodity_id = commodity_id;
+    }
+
+
+    public Book getBook() {
+        return book;
+    }
+
+    public void setBook(Book book) {
+        this.book = book;
     }
 }

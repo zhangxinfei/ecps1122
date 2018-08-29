@@ -3,58 +3,58 @@ package cn.itcast.model;
 import java.util.Date;
 
 public class User {
-    private Integer userId;
+    private Integer user_id;
 
-    private String userName;
+    private String user_name;
 
     private String password;
 
-    private Integer userIphone;
+    private Integer user_iphone;
 
-    private Integer userQq;
+    private Integer user_qq;
 
-    private String userSex;
+    private String user_sex;
 
-    private Date userBirthday;
+    private Date user_birthday;
 
-    private String userAdress;
+    private String user_adress;
 
-    private String userSchool;
+    private String user_school;
 
-    private String userStudentid;
+    private String user_studentId;
 
-    private String userClassid;
+    private String user_classid;
 
-    private Integer userCredit;
+    private Integer user_credit;
 
-    private Integer userStatus;
+    private Integer user_status;
 
-    private Integer loginState;
+    private Integer login_state;
 
-    private String userUsername;
+    private String user_username;
 
-    private Date createTime;
+    private Date create_time;
 
-    private Date updateTime;
+    private Date update_time;
 
-    private Integer administratorsId;
+    private Integer administrators_id;
 
-    private Integer userRole;
+    private Integer user_role;
 
-    public Integer getUserId() {
-        return userId;
+    public Integer getUser_id() {
+        return user_id;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
+    public void setUser_id(Integer user_id) {
+        this.user_id = user_id;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUser_name() {
+        return user_name;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName == null ? null : userName.trim();
+    public void setUser_name(String user_name) {
+        this.user_name = user_name == null ? null : user_name.trim();
     }
 
     public String getPassword() {
@@ -65,131 +65,131 @@ public class User {
         this.password = password == null ? null : password.trim();
     }
 
-    public Integer getUserIphone() {
-        return userIphone;
+    public Integer getUser_iphone() {
+        return user_iphone;
     }
 
-    public void setUserIphone(Integer userIphone) {
-        this.userIphone = userIphone;
+    public void setUser_iphone(Integer user_iphone) {
+        this.user_iphone = user_iphone;
     }
 
-    public Integer getUserQq() {
-        return userQq;
+    public Integer getUser_qq() {
+        return user_qq;
     }
 
-    public void setUserQq(Integer userQq) {
-        this.userQq = userQq;
+    public void setUser_qq(Integer user_qq) {
+        this.user_qq = user_qq;
     }
 
-    public String getUserSex() {
-        return userSex;
+    public String getUser_sex() {
+        return user_sex;
     }
 
-    public void setUserSex(String userSex) {
-        this.userSex = userSex == null ? null : userSex.trim();
+    public void setUser_sex(String user_sex) {
+        this.user_sex = user_sex == null ? null : user_sex.trim();
     }
 
-    public Date getUserBirthday() {
-        return userBirthday;
+    public Date getUser_birthday() {
+        return user_birthday;
     }
 
-    public void setUserBirthday(Date userBirthday) {
-        this.userBirthday = userBirthday;
+    public void setUser_birthday(Date user_birthday) {
+        this.user_birthday = user_birthday;
     }
 
-    public String getUserAdress() {
-        return userAdress;
+    public String getUser_adress() {
+        return user_adress;
     }
 
-    public void setUserAdress(String userAdress) {
-        this.userAdress = userAdress == null ? null : userAdress.trim();
+    public void setUser_adress(String user_adress) {
+        this.user_adress = user_adress == null ? null : user_adress.trim();
     }
 
-    public String getUserSchool() {
-        return userSchool;
+    public String getUser_school() {
+        return user_school;
     }
 
-    public void setUserSchool(String userSchool) {
-        this.userSchool = userSchool == null ? null : userSchool.trim();
+    public void setUser_school(String user_school) {
+        this.user_school = user_school == null ? null : user_school.trim();
     }
 
-    public String getUserStudentid() {
-        return userStudentid;
+    public String getUser_studentId() {
+        return user_studentId;
     }
 
-    public void setUserStudentid(String userStudentid) {
-        this.userStudentid = userStudentid == null ? null : userStudentid.trim();
+    public void setUser_studentId(String user_studentId) {
+        this.user_studentId = user_studentId == null ? null : user_studentId.trim();
     }
 
-    public String getUserClassid() {
-        return userClassid;
+    public String getUser_classid() {
+        return user_classid;
     }
 
-    public void setUserClassid(String userClassid) {
-        this.userClassid = userClassid == null ? null : userClassid.trim();
+    public void setUser_classid(String user_classid) {
+        this.user_classid = user_classid == null ? null : user_classid.trim();
     }
 
-    public Integer getUserCredit() {
-        return userCredit;
+    public Integer getUser_credit() {
+        return user_credit;
     }
 
-    public void setUserCredit(Integer userCredit) {
-        this.userCredit = userCredit;
+    public void setUser_credit(Integer user_credit) {
+        this.user_credit = user_credit;
     }
 
-    public Integer getUserStatus() {
-        return userStatus;
+    public Integer getUser_status() {
+        return user_status;
     }
 
-    public void setUserStatus(Integer userStatus) {
-        this.userStatus = userStatus;
+    public void setUser_status(Integer user_status) {
+        this.user_status = user_status;
     }
 
-    public Integer getLoginState() {
-        return loginState;
+    public Integer getLogin_state() {
+        return login_state;
     }
 
-    public void setLoginState(Integer loginState) {
-        this.loginState = loginState;
+    public void setLogin_state(Integer login_state) {
+        this.login_state = login_state;
     }
 
-    public String getUserUsername() {
-        return userUsername;
+    public String getUser_username() {
+        return user_username;
     }
 
-    public void setUserUsername(String userUsername) {
-        this.userUsername = userUsername == null ? null : userUsername.trim();
+    public void setUser_username(String user_username) {
+        this.user_username = user_username == null ? null : user_username.trim();
     }
 
-    public Date getCreateTime() {
-        return createTime;
+    public Date getCreate_time() {
+        return create_time;
     }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setCreate_time(Date create_time) {
+        this.create_time = create_time;
     }
 
-    public Date getUpdateTime() {
-        return updateTime;
+    public Date getUpdate_time() {
+        return update_time;
     }
 
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
+    public void setUpdate_time(Date update_time) {
+        this.update_time = update_time;
     }
 
-    public Integer getAdministratorsId() {
-        return administratorsId;
+    public Integer getAdministrators_id() {
+        return administrators_id;
     }
 
-    public void setAdministratorsId(Integer administratorsId) {
-        this.administratorsId = administratorsId;
+    public void setAdministrators_id(Integer administrators_id) {
+        this.administrators_id = administrators_id;
     }
 
-    public Integer getUserRole() {
-        return userRole;
+    public Integer getUser_role() {
+        return user_role;
     }
 
-    public void setUserRole(Integer userRole) {
-        this.userRole = userRole;
+    public void setUser_role(Integer user_role) {
+        this.user_role = user_role;
     }
 }

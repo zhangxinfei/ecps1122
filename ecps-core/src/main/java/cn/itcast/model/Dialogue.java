@@ -5,17 +5,17 @@ import java.util.Date;
 public class Dialogue {
     private Integer id;
 
-    private Integer dialogueUser;
+    private Integer dialogue_user;
 
-    private Integer dialogueFriend;
+    private Integer dialogue_friend;
 
-    private String dialogueType;
+    private String dialogue_type;
 
-    private Date sendTime;
+    private Date send_time;
 
-    private Date readTime;
+    private Date read_time;
 
-    private Integer dialogueStatus;
+    private Integer dialogue_status;
 
     private String contentt;
 
@@ -27,52 +27,52 @@ public class Dialogue {
         this.id = id;
     }
 
-    public Integer getDialogueUser() {
-        return dialogueUser;
+    public Integer getDialogue_user() {
+        return dialogue_user;
     }
 
-    public void setDialogueUser(Integer dialogueUser) {
-        this.dialogueUser = dialogueUser;
+    public void setDialogue_user(Integer dialogue_user) {
+        this.dialogue_user = dialogue_user;
     }
 
-    public Integer getDialogueFriend() {
-        return dialogueFriend;
+    public Integer getDialogue_friend() {
+        return dialogue_friend;
     }
 
-    public void setDialogueFriend(Integer dialogueFriend) {
-        this.dialogueFriend = dialogueFriend;
+    public void setDialogue_friend(Integer dialogue_friend) {
+        this.dialogue_friend = dialogue_friend;
     }
 
-    public String getDialogueType() {
-        return dialogueType;
+    public String getDialogue_type() {
+        return dialogue_type;
     }
 
-    public void setDialogueType(String dialogueType) {
-        this.dialogueType = dialogueType == null ? null : dialogueType.trim();
+    public void setDialogue_type(String dialogue_type) {
+        this.dialogue_type = dialogue_type == null ? null : dialogue_type.trim();
     }
 
-    public Date getSendTime() {
-        return sendTime;
+    public Date getSend_time() {
+        return send_time;
     }
 
-    public void setSendTime(Date sendTime) {
-        this.sendTime = sendTime;
+    public void setSend_time(Date send_time) {
+        this.send_time = send_time;
     }
 
-    public Date getReadTime() {
-        return readTime;
+    public Date getRead_time() {
+        return read_time;
     }
 
-    public void setReadTime(Date readTime) {
-        this.readTime = readTime;
+    public void setRead_time(Date read_time) {
+        this.read_time = read_time;
     }
 
-    public Integer getDialogueStatus() {
-        return dialogueStatus;
+    public Integer getDialogue_status() {
+        return dialogue_status;
     }
 
-    public void setDialogueStatus(Integer dialogueStatus) {
-        this.dialogueStatus = dialogueStatus;
+    public void setDialogue_status(Integer dialogue_status) {
+        this.dialogue_status = dialogue_status;
     }
 
     public String getContentt() {

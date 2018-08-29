@@ -1,5 +1,0 @@
-jdbc.driverLocation=/Users/zhangxinfei/Desktop/javaJar/mysqlJar/mysql-connector-java-5.1.7-bin.jar
-jdbc.driverClass=com.mysql.jdbc.Driver
-jdbc.connectionURL=jdbc:mysql://localhost:3306/secondhand
-jdbc.userId=root
-jdbc.password=root

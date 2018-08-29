@@ -1,48 +1,52 @@
 package cn.itcast.model.params;
 
+import cn.itcast.model.Order;
+
 import java.util.Date;
 
 public class OrderParams {
-    private Integer orderId;
+   private Order order;
 
-    private Integer orderNumber;
+    private Integer order_id;
 
-    private String orderTotal;
+    private Integer order_number;
+
+    private String order_total;
 
     private Date createtime;
 
-    private Integer administratorsId;
+    private Integer administrators_id;
 
-    private Integer commodityId;
+    private Integer commodity_id;
 
-    private Integer buyNumber;
+    private Integer buy_number;
 
     private Date updatetime;
 
-    private String orderDescribe;
+    private String order_describe;
 
-    public Integer getOrderId() {
-        return orderId;
+    public Integer getOrder_id() {
+        return order_id;
     }
 
-    public void setOrderId(Integer orderId) {
-        this.orderId = orderId;
+    public void setOrder_id(Integer order_id) {
+        this.order_id = order_id;
     }
 
-    public Integer getOrderNumber() {
-        return orderNumber;
+    public Integer getOrder_number() {
+        return order_number;
     }
 
-    public void setOrderNumber(Integer orderNumber) {
-        this.orderNumber = orderNumber;
+    public void setOrder_number(Integer order_number) {
+        this.order_number = order_number;
     }
 
-    public String getOrderTotal() {
-        return orderTotal;
+    public String getOrder_total() {
+        return order_total;
     }
 
-    public void setOrderTotal(String orderTotal) {
-        this.orderTotal = orderTotal == null ? null : orderTotal.trim();
+    public void setOrder_total(String order_total) {
+        this.order_total = order_total == null ? null : order_total.trim();
     }
 
     public Date getCreatetime() {
@@ -53,28 +57,28 @@ public class OrderParams {
         this.createtime = createtime;
     }
 
-    public Integer getAdministratorsId() {
-        return administratorsId;
+    public Integer getAdministrators_id() {
+        return administrators_id;
     }
 
-    public void setAdministratorsId(Integer administratorsId) {
-        this.administratorsId = administratorsId;
+    public void setAdministrators_id(Integer administrators_id) {
+        this.administrators_id = administrators_id;
     }
 
-    public Integer getCommodityId() {
-        return commodityId;
+    public Integer getCommodity_id() {
+        return commodity_id;
     }
 
-    public void setCommodityId(Integer commodityId) {
-        this.commodityId = commodityId;
+    public void setCommodity_id(Integer commodity_id) {
+        this.commodity_id = commodity_id;
     }
 
-    public Integer getBuyNumber() {
-        return buyNumber;
+    public Integer getBuy_number() {
+        return buy_number;
     }
 
-    public void setBuyNumber(Integer buyNumber) {
-        this.buyNumber = buyNumber;
+    public void setBuy_number(Integer buy_number) {
+        this.buy_number = buy_number;
     }
 
     public Date getUpdatetime() {
@@ -85,11 +89,19 @@ public class OrderParams {
         this.updatetime = updatetime;
     }
 
-    public String getOrderDescribe() {
-        return orderDescribe;
+    public String getOrder_describe() {
+        return order_describe;
     }
 
-    public void setOrderDescribe(String orderDescribe) {
-        this.orderDescribe = orderDescribe == null ? null : orderDescribe.trim();
+    public void setOrder_describe(String order_describe) {
+        this.order_describe = order_describe == null ? null : order_describe.trim();
+    }
+
+    public Order getOrder() {
+        return order;
+    }
+
+    public void setOrder(Order order) {
+        this.order = order;
     }
 }

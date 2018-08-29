@@ -1,43 +1,43 @@
 package cn.itcast.model;
 
 public class Commoditytype {
-    private Integer commoditytypeId;
+    private Integer commodityType_id;
 
-    private String commodityType;
+    private String commodity_type;
 
-    private Integer commodityStatus;
+    private Integer commodity_status;
 
-    private Integer administratorsId;
+    private Integer administrators_id;
 
-    public Integer getCommoditytypeId() {
-        return commoditytypeId;
+    public Integer getCommodityType_id() {
+        return commodityType_id;
     }
 
-    public void setCommoditytypeId(Integer commoditytypeId) {
-        this.commoditytypeId = commoditytypeId;
+    public void setCommodityType_id(Integer commodityType_id) {
+        this.commodityType_id = commodityType_id;
     }
 
-    public String getCommodityType() {
-        return commodityType;
+    public String getCommodity_type() {
+        return commodity_type;
     }
 
-    public void setCommodityType(String commodityType) {
-        this.commodityType = commodityType == null ? null : commodityType.trim();
+    public void setCommodity_type(String commodity_type) {
+        this.commodity_type = commodity_type == null ? null : commodity_type.trim();
     }
 
-    public Integer getCommodityStatus() {
-        return commodityStatus;
+    public Integer getCommodity_status() {
+        return commodity_status;
     }
 
-    public void setCommodityStatus(Integer commodityStatus) {
-        this.commodityStatus = commodityStatus;
+    public void setCommodity_status(Integer commodity_status) {
+        this.commodity_status = commodity_status;
     }
 
-    public Integer getAdministratorsId() {
-        return administratorsId;
+    public Integer getAdministrators_id() {
+        return administrators_id;
     }
 
-    public void setAdministratorsId(Integer administratorsId) {
-        this.administratorsId = administratorsId;
+    public void setAdministrators_id(Integer administrators_id) {
+        this.administrators_id = administrators_id;
     }
 }

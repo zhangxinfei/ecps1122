@@ -15,6 +15,9 @@ public interface UserMapper {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
-//  登录的判断
-    Boolean selectByUserParams(UserParams userParams);
+
+    /*
+     * 通过id和密码判断用户登录
+     */
+    int selectByKeyAndPassword(UserParams user);
 }

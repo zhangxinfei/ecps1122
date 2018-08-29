@@ -10,9 +10,34 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
+	<!--<profiles>-->
+		<!--<profile>-->
+			<!--<id>jdk1.8</id>-->
+			<!--<activation>-->
+				<!--<activeByDefault>true</activeByDefault>-->
+				<!--<jdk>1.8</jdk>-->
+			<!--</activation>-->
+			<!--<properties>-->
+				<!--<maven.compiler.source>1.8</maven.compiler.source>-->
+				<!--<maven.compiler.target>1.8</maven.compiler.target>-->
+				<!--<maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>-->
+			<!--</properties>-->
+		<!--</profile>-->
+	<!--</profiles>-->
   
   <dependencies>
-  		<!-- 吧ecps-core作为依赖引入进来 -->
+	  <!--日志-->
+	  <dependency>
+		  <groupId>org.slf4j</groupId>
+		  <artifactId>slf4j-log4j12</artifactId>
+		  <version>1.7.2</version>
+	  </dependency>
+	  <dependency>
+		  <groupId>com.alibaba</groupId>
+		  <artifactId>fastjson</artifactId>
+		  <version>1.2.13</version>
+	  </dependency>
+  		<!-- 把ecps-core作为依赖引入进来 -->
   		<dependency>
 			<groupId>cn.itcast.ecps</groupId>
 			<artifactId>ecps-core</artifactId>
@@ -115,11 +140,6 @@
 
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-asm</artifactId>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
 			<artifactId>spring-aspects</artifactId>
 			<scope>compile</scope>
 		</dependency>
@@ -178,32 +198,6 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<scope>compile</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-acl</artifactId>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-config</artifactId>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-core</artifactId>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-taglibs</artifactId>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-web</artifactId>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
@@ -346,14 +340,22 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>compile</scope>
 		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.scheduling</groupId>
-			<artifactId>quartz</artifactId>
-			<scope>compile</scope>
-		</dependency>
-
-		<dependency>
+	  <dependency>
+		  <groupId>org.quartz-scheduler</groupId>
+		  <artifactId>quartz</artifactId>
+		  <version>2.2.1</version>
+	  </dependency>
+	  <dependency>
+		  <groupId>org.quartz-scheduler</groupId>
+		  <artifactId>quartz-jobs</artifactId>
+		  <version>2.2.1</version>
+	  </dependency>
+	  <dependency>
+		  <groupId>javax.transaction</groupId>
+		  <artifactId>jta</artifactId>
+		  <version>1.1</version>
+	  </dependency>
+	  <dependency>
 			<groupId>dom4j</groupId>
 			<artifactId>dom4j</artifactId>
 			<scope>compile</scope>

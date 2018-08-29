@@ -6,39 +6,38 @@ package cn.itcast.enums;
 public  class WizardAuditEnum {
 	public enum StatusEnum {
 
-		STATUS_SUCCESS(10, "存在"), STATUS_FAIL(20,"不存在");
+		STATUS_SUCCESS(10, "成功"), STATUS_FAIL(20,"失败");
 
-		private int state;
+		private int value;
 
-		private String stateInfo;
+		private String desc;
 
-		private StatusEnum(int state, String stateInfo) {
-			this.state = state;
-			this.stateInfo = stateInfo;
+		private StatusEnum(int value, String desc) {
+			this.value = value;
+			this.desc = desc;
 		}
 
-		public int getState() {
-			return state;
+		public int getValue() {
+			return value;
 		}
 
-		public String getStateInfo() {
-			return stateInfo;
+		public void setValue(int value) {
+			this.value = value;
 		}
 
-		public void setState(int state) {
-			this.state = state;
+		public String getDesc() {
+			return desc;
 		}
 
-		public void setStateInfo(String stateInfo) {
-			this.stateInfo = stateInfo;
+		public void setDesc(String desc) {
+			this.desc = desc;
 		}
 
-		public static StatusEnum stateOf(int index) {
-			for (StatusEnum state : values()) {
-				if (state.getState() == index) {
-					return state;
+		public static String getDesc(Integer value) {
+			for (StatusEnum status : StatusEnum.values()) {
+				if (status.getValue() == (value)) {
+					return status.desc;
 				}
-
 			}
 			return null;
 		}

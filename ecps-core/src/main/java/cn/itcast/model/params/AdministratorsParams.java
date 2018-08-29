@@ -1,105 +1,118 @@
 package cn.itcast.model.params;
 
+import cn.itcast.model.Administrators;
+
 import java.util.Date;
 
 public class AdministratorsParams {
-    private Integer administratorsId;
+    private Administrators administrators;
 
-    private String administratorsName;
+    private Integer administrators_id;
 
-    private Integer administratorsNumber;
+    private String administrators_name;
 
-    private String administratorsIphone;
+    private Integer administrators_number;
 
-    private Integer loginState;
+    private String administrators_iphone;
 
-    private Integer administratorsStatus;
+    private Integer login_state;
 
-    private Integer administratorsLevel;
+    private Integer administrators_status;
 
-    private String administratorsNickname;
+    private Integer administrators_level;
 
-    private Date createTime;
+    private String administrators_nickname;
 
-    private Date updateTime;
+    private Date create_time;
 
-    public Integer getAdministratorsId() {
-        return administratorsId;
+    private Date update_time;
+
+    public Integer getAdministrators_id() {
+        return administrators_id;
     }
 
-    public void setAdministratorsId(Integer administratorsId) {
-        this.administratorsId = administratorsId;
+    public void setAdministrators_id(Integer administrators_id) {
+        this.administrators_id = administrators_id;
     }
 
-    public String getAdministratorsName() {
-        return administratorsName;
+    public String getAdministrators_name() {
+        return administrators_name;
     }
 
-    public void setAdministratorsName(String administratorsName) {
-        this.administratorsName = administratorsName == null ? null : administratorsName.trim();
+    public void setAdministrators_name(String administrators_name) {
+        this.administrators_name = administrators_name == null ? null : administrators_name.trim();
     }
 
-    public Integer getAdministratorsNumber() {
-        return administratorsNumber;
+    public Integer getAdministrators_number() {
+        return administrators_number;
     }
 
-    public void setAdministratorsNumber(Integer administratorsNumber) {
-        this.administratorsNumber = administratorsNumber;
+    public void setAdministrators_number(Integer administrators_number) {
+        this.administrators_number = administrators_number;
     }
 
-    public String getAdministratorsIphone() {
-        return administratorsIphone;
+    public String getAdministrators_iphone() {
+        return administrators_iphone;
     }
 
-    public void setAdministratorsIphone(String administratorsIphone) {
-        this.administratorsIphone = administratorsIphone == null ? null : administratorsIphone.trim();
+    public void setAdministrators_iphone(String administrators_iphone) {
+        this.administrators_iphone = administrators_iphone == null ? null : administrators_iphone.trim();
     }
 
-    public Integer getLoginState() {
-        return loginState;
+    public Integer getLogin_state() {
+        return login_state;
     }
 
-    public void setLoginState(Integer loginState) {
-        this.loginState = loginState;
+    public void setLogin_state(Integer login_state) {
+        this.login_state = login_state;
     }
 
-    public Integer getAdministratorsStatus() {
-        return administratorsStatus;
+    public Integer getAdministrators_status() {
+        return administrators_status;
     }
 
-    public void setAdministratorsStatus(Integer administratorsStatus) {
-        this.administratorsStatus = administratorsStatus;
+    public void setAdministrators_status(Integer administrators_status) {
+        this.administrators_status = administrators_status;
     }
 
-    public Integer getAdministratorsLevel() {
-        return administratorsLevel;
+    public Integer getAdministrators_level() {
+        return administrators_level;
     }
 
-    public void setAdministratorsLevel(Integer administratorsLevel) {
-        this.administratorsLevel = administratorsLevel;
+    public void setAdministrators_level(Integer administrators_level) {
+        this.administrators_level = administrators_level;
     }
 
-    public String getAdministratorsNickname() {
-        return administratorsNickname;
+    public String getAdministrators_nickname() {
+        return administrators_nickname;
     }
 
-    public void setAdministratorsNickname(String administratorsNickname) {
-        this.administratorsNickname = administratorsNickname == null ? null : administratorsNickname.trim();
+    public void setAdministrators_nickname(String administrators_nickname) {
+        this.administrators_nickname = administrators_nickname == null ? null : administrators_nickname.trim();
     }
 
-    public Date getCreateTime() {
-        return createTime;
+    public Date getCreate_time() {
+        return create_time;
     }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setCreate_time(Date create_time) {
+        this.create_time = create_time;
     }
 
-    public Date getUpdateTime() {
-        return updateTime;
+    public Date getUpdate_time() {
+        return update_time;
     }
 
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
+    public void setUpdate_time(Date update_time) {
+        this.update_time = update_time;
+    }
+
+
+    public Administrators getAdministrators() {
+        return administrators;
+    }
+
+    public void setAdministrators(Administrators administrators) {
+        this.administrators = administrators;
     }
 }

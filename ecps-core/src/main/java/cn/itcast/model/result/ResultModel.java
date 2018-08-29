@@ -6,13 +6,14 @@ import java.io.Serializable;
  */
 public class ResultModel implements Serializable {
     private static final long serialVersionUID = 1L;
-
+    //状态
     private boolean success;
 
+    //枚举中的键
     private Integer code;
-
+    //枚举中的数据
     private Object data;
-
+    //枚举中的值
     private String message;
 
     public ResultModel(int code, String message) {

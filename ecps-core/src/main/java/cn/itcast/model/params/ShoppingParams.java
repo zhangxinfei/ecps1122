@@ -1,63 +1,77 @@
 package cn.itcast.model.params;
 
+import cn.itcast.model.Shopping;
+
 public class ShoppingParams {
-    private Integer buyId;
+    private Shopping shopping;
 
-    private Integer buyNumber;
+    private Integer buy_id;
 
-    private String buyTotal;
+    private Integer buy_number;
 
-    private Integer commodityId;
+    private String buy_total;
 
-    private Integer userId;
+    private Integer commodity_id;
 
-    private Integer administratorsId;
+    private Integer user_id;
 
-    public Integer getBuyId() {
-        return buyId;
+    private Integer administrators_id;
+
+    public Integer getBuy_id() {
+        return buy_id;
     }
 
-    public void setBuyId(Integer buyId) {
-        this.buyId = buyId;
+    public void setBuy_id(Integer buy_id) {
+        this.buy_id = buy_id;
     }
 
-    public Integer getBuyNumber() {
-        return buyNumber;
+    public Integer getBuy_number() {
+        return buy_number;
     }
 
-    public void setBuyNumber(Integer buyNumber) {
-        this.buyNumber = buyNumber;
+    public void setBuy_number(Integer buy_number) {
+        this.buy_number = buy_number;
     }
 
-    public String getBuyTotal() {
-        return buyTotal;
+    public String getBuy_total() {
+        return buy_total;
     }
 
-    public void setBuyTotal(String buyTotal) {
-        this.buyTotal = buyTotal == null ? null : buyTotal.trim();
+    public void setBuy_total(String buy_total) {
+        this.buy_total = buy_total == null ? null : buy_total.trim();
     }
 
-    public Integer getCommodityId() {
-        return commodityId;
+    public Integer getCommodity_id() {
+        return commodity_id;
     }
 
-    public void setCommodityId(Integer commodityId) {
-        this.commodityId = commodityId;
+    public void setCommodity_id(Integer commodity_id) {
+        this.commodity_id = commodity_id;
     }
 
-    public Integer getUserId() {
-        return userId;
+    public Integer getUser_id() {
+        return user_id;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
+    public void setUser_id(Integer user_id) {
+        this.user_id = user_id;
     }
 
-    public Integer getAdministratorsId() {
-        return administratorsId;
+    public Integer getAdministrators_id() {
+        return administrators_id;
     }
 
-    public void setAdministratorsId(Integer administratorsId) {
-        this.administratorsId = administratorsId;
+    public void setAdministrators_id(Integer administrators_id) {
+        this.administrators_id = administrators_id;
+    }
+
+
+
+    public Shopping getShopping() {
+        return shopping;
+    }
+
+    public void setShopping(Shopping shopping) {
+        this.shopping = shopping;
     }
 }

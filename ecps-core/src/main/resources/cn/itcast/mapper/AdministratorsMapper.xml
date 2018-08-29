@@ -2,16 +2,16 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="cn.itcast.mapper.AdministratorsMapper" >
   <resultMap id="BaseResultMap" type="cn.itcast.model.Administrators" >
-    <id column="administrators_id" property="administratorsId" jdbcType="INTEGER" />
-    <result column="administrators_name" property="administratorsName" jdbcType="VARCHAR" />
-    <result column="administrators_number" property="administratorsNumber" jdbcType="INTEGER" />
-    <result column="administrators_iphone" property="administratorsIphone" jdbcType="VARCHAR" />
-    <result column="login_state" property="loginState" jdbcType="INTEGER" />
-    <result column="administrators_status" property="administratorsStatus" jdbcType="INTEGER" />
-    <result column="administrators_level" property="administratorsLevel" jdbcType="INTEGER" />
-    <result column="administrators_nickname" property="administratorsNickname" jdbcType="VARCHAR" />
-    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
-    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <id column="administrators_id" property="administrators_id" jdbcType="INTEGER" />
+    <result column="administrators_name" property="administrators_name" jdbcType="VARCHAR" />
+    <result column="administrators_number" property="administrators_number" jdbcType="INTEGER" />
+    <result column="administrators_iphone" property="administrators_iphone" jdbcType="VARCHAR" />
+    <result column="login_state" property="login_state" jdbcType="INTEGER" />
+    <result column="administrators_status" property="administrators_status" jdbcType="INTEGER" />
+    <result column="administrators_level" property="administrators_level" jdbcType="INTEGER" />
+    <result column="administrators_nickname" property="administrators_nickname" jdbcType="VARCHAR" />
+    <result column="create_time" property="create_time" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="update_time" jdbcType="TIMESTAMP" />
   </resultMap>
   <sql id="Base_Column_List" >
     administrators_id, administrators_name, administrators_number, administrators_iphone, 
@@ -22,135 +22,135 @@
     select 
     <include refid="Base_Column_List" />
     from Administrators
-    where administrators_id = #{administratorsId,jdbcType=INTEGER}
+    where administrators_id = #{administrators_id,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     delete from Administrators
-    where administrators_id = #{administratorsId,jdbcType=INTEGER}
+    where administrators_id = #{administrators_id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="cn.itcast.model.Administrators" >
     insert into Administrators (administrators_id, administrators_name, 
       administrators_number, administrators_iphone, 
       login_state, administrators_status, administrators_level, 
-      administrators_nickname, create_time, update_time
-      )
-    values (#{administratorsId,jdbcType=INTEGER}, #{administratorsName,jdbcType=VARCHAR}, 
-      #{administratorsNumber,jdbcType=INTEGER}, #{administratorsIphone,jdbcType=VARCHAR}, 
-      #{loginState,jdbcType=INTEGER}, #{administratorsStatus,jdbcType=INTEGER}, #{administratorsLevel,jdbcType=INTEGER}, 
-      #{administratorsNickname,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}
-      )
+      administrators_nickname, create_time, 
+      update_time)
+    values (#{administrators_id,jdbcType=INTEGER}, #{administrators_name,jdbcType=VARCHAR}, 
+      #{administrators_number,jdbcType=INTEGER}, #{administrators_iphone,jdbcType=VARCHAR}, 
+      #{login_state,jdbcType=INTEGER}, #{administrators_status,jdbcType=INTEGER}, #{administrators_level,jdbcType=INTEGER}, 
+      #{administrators_nickname,jdbcType=VARCHAR}, #{create_time,jdbcType=TIMESTAMP}, 
+      #{update_time,jdbcType=TIMESTAMP})
   </insert>
   <insert id="insertSelective" parameterType="cn.itcast.model.Administrators" >
     insert into Administrators
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="administratorsId != null" >
+      <if test="administrators_id != null" >
         administrators_id,
       </if>
-      <if test="administratorsName != null" >
+      <if test="administrators_name != null" >
         administrators_name,
       </if>
-      <if test="administratorsNumber != null" >
+      <if test="administrators_number != null" >
         administrators_number,
       </if>
-      <if test="administratorsIphone != null" >
+      <if test="administrators_iphone != null" >
         administrators_iphone,
       </if>
-      <if test="loginState != null" >
+      <if test="login_state != null" >
         login_state,
       </if>
-      <if test="administratorsStatus != null" >
+      <if test="administrators_status != null" >
         administrators_status,
       </if>
-      <if test="administratorsLevel != null" >
+      <if test="administrators_level != null" >
         administrators_level,
       </if>
-      <if test="administratorsNickname != null" >
+      <if test="administrators_nickname != null" >
         administrators_nickname,
       </if>
-      <if test="createTime != null" >
+      <if test="create_time != null" >
         create_time,
       </if>
-      <if test="updateTime != null" >
+      <if test="update_time != null" >
         update_time,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="administratorsId != null" >
-        #{administratorsId,jdbcType=INTEGER},
+      <if test="administrators_id != null" >
+        #{administrators_id,jdbcType=INTEGER},
       </if>
-      <if test="administratorsName != null" >
-        #{administratorsName,jdbcType=VARCHAR},
+      <if test="administrators_name != null" >
+        #{administrators_name,jdbcType=VARCHAR},
       </if>
-      <if test="administratorsNumber != null" >
-        #{administratorsNumber,jdbcType=INTEGER},
+      <if test="administrators_number != null" >
+        #{administrators_number,jdbcType=INTEGER},
       </if>
-      <if test="administratorsIphone != null" >
-        #{administratorsIphone,jdbcType=VARCHAR},
+      <if test="administrators_iphone != null" >
+        #{administrators_iphone,jdbcType=VARCHAR},
       </if>
-      <if test="loginState != null" >
-        #{loginState,jdbcType=INTEGER},
+      <if test="login_state != null" >
+        #{login_state,jdbcType=INTEGER},
       </if>
-      <if test="administratorsStatus != null" >
-        #{administratorsStatus,jdbcType=INTEGER},
+      <if test="administrators_status != null" >
+        #{administrators_status,jdbcType=INTEGER},
       </if>
-      <if test="administratorsLevel != null" >
-        #{administratorsLevel,jdbcType=INTEGER},
+      <if test="administrators_level != null" >
+        #{administrators_level,jdbcType=INTEGER},
       </if>
-      <if test="administratorsNickname != null" >
-        #{administratorsNickname,jdbcType=VARCHAR},
+      <if test="administrators_nickname != null" >
+        #{administrators_nickname,jdbcType=VARCHAR},
       </if>
-      <if test="createTime != null" >
-        #{createTime,jdbcType=TIMESTAMP},
+      <if test="create_time != null" >
+        #{create_time,jdbcType=TIMESTAMP},
       </if>
-      <if test="updateTime != null" >
-        #{updateTime,jdbcType=TIMESTAMP},
+      <if test="update_time != null" >
+        #{update_time,jdbcType=TIMESTAMP},
       </if>
     </trim>
   </insert>
   <update id="updateByPrimaryKeySelective" parameterType="cn.itcast.model.Administrators" >
     update Administrators
     <set >
-      <if test="administratorsName != null" >
-        administrators_name = #{administratorsName,jdbcType=VARCHAR},
+      <if test="administrators_name != null" >
+        administrators_name = #{administrators_name,jdbcType=VARCHAR},
       </if>
-      <if test="administratorsNumber != null" >
-        administrators_number = #{administratorsNumber,jdbcType=INTEGER},
+      <if test="administrators_number != null" >
+        administrators_number = #{administrators_number,jdbcType=INTEGER},
       </if>
-      <if test="administratorsIphone != null" >
-        administrators_iphone = #{administratorsIphone,jdbcType=VARCHAR},
+      <if test="administrators_iphone != null" >
+        administrators_iphone = #{administrators_iphone,jdbcType=VARCHAR},
       </if>
-      <if test="loginState != null" >
-        login_state = #{loginState,jdbcType=INTEGER},
+      <if test="login_state != null" >
+        login_state = #{login_state,jdbcType=INTEGER},
       </if>
-      <if test="administratorsStatus != null" >
-        administrators_status = #{administratorsStatus,jdbcType=INTEGER},
+      <if test="administrators_status != null" >
+        administrators_status = #{administrators_status,jdbcType=INTEGER},
       </if>
-      <if test="administratorsLevel != null" >
-        administrators_level = #{administratorsLevel,jdbcType=INTEGER},
+      <if test="administrators_level != null" >
+        administrators_level = #{administrators_level,jdbcType=INTEGER},
       </if>
-      <if test="administratorsNickname != null" >
-        administrators_nickname = #{administratorsNickname,jdbcType=VARCHAR},
+      <if test="administrators_nickname != null" >
+        administrators_nickname = #{administrators_nickname,jdbcType=VARCHAR},
       </if>
-      <if test="createTime != null" >
-        create_time = #{createTime,jdbcType=TIMESTAMP},
+      <if test="create_time != null" >
+        create_time = #{create_time,jdbcType=TIMESTAMP},
       </if>
-      <if test="updateTime != null" >
-        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      <if test="update_time != null" >
+        update_time = #{update_time,jdbcType=TIMESTAMP},
       </if>
     </set>
-    where administrators_id = #{administratorsId,jdbcType=INTEGER}
+    where administrators_id = #{administrators_id,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="cn.itcast.model.Administrators" >
     update Administrators
-    set administrators_name = #{administratorsName,jdbcType=VARCHAR},
-      administrators_number = #{administratorsNumber,jdbcType=INTEGER},
-      administrators_iphone = #{administratorsIphone,jdbcType=VARCHAR},
-      login_state = #{loginState,jdbcType=INTEGER},
-      administrators_status = #{administratorsStatus,jdbcType=INTEGER},
-      administrators_level = #{administratorsLevel,jdbcType=INTEGER},
-      administrators_nickname = #{administratorsNickname,jdbcType=VARCHAR},
-      create_time = #{createTime,jdbcType=TIMESTAMP},
-      update_time = #{updateTime,jdbcType=TIMESTAMP}
-    where administrators_id = #{administratorsId,jdbcType=INTEGER}
+    set administrators_name = #{administrators_name,jdbcType=VARCHAR},
+      administrators_number = #{administrators_number,jdbcType=INTEGER},
+      administrators_iphone = #{administrators_iphone,jdbcType=VARCHAR},
+      login_state = #{login_state,jdbcType=INTEGER},
+      administrators_status = #{administrators_status,jdbcType=INTEGER},
+      administrators_level = #{administrators_level,jdbcType=INTEGER},
+      administrators_nickname = #{administrators_nickname,jdbcType=VARCHAR},
+      create_time = #{create_time,jdbcType=TIMESTAMP},
+      update_time = #{update_time,jdbcType=TIMESTAMP}
+    where administrators_id = #{administrators_id,jdbcType=INTEGER}
   </update>
 </mapper>

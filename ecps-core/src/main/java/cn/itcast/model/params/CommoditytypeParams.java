@@ -1,43 +1,56 @@
 package cn.itcast.model.params;
 
+import cn.itcast.model.Commoditytype;
+
 public class CommoditytypeParams {
-    private Integer commoditytypeId;
+    private Commoditytype commoditytype;
 
-    private String commodityType;
+    private Integer commodityType_id;
 
-    private Integer commodityStatus;
+    private String commodity_type;
 
-    private Integer administratorsId;
+    private Integer commodity_status;
 
-    public Integer getCommoditytypeId() {
-        return commoditytypeId;
+    private Integer administrators_id;
+
+    public Integer getCommodityType_id() {
+        return commodityType_id;
     }
 
-    public void setCommoditytypeId(Integer commoditytypeId) {
-        this.commoditytypeId = commoditytypeId;
+    public void setCommodityType_id(Integer commodityType_id) {
+        this.commodityType_id = commodityType_id;
     }
 
-    public String getCommodityType() {
-        return commodityType;
+    public String getCommodity_type() {
+        return commodity_type;
     }
 
-    public void setCommodityType(String commodityType) {
-        this.commodityType = commodityType == null ? null : commodityType.trim();
+    public void setCommodity_type(String commodity_type) {
+        this.commodity_type = commodity_type == null ? null : commodity_type.trim();
     }
 
-    public Integer getCommodityStatus() {
-        return commodityStatus;
+    public Integer getCommodity_status() {
+        return commodity_status;
     }
 
-    public void setCommodityStatus(Integer commodityStatus) {
-        this.commodityStatus = commodityStatus;
+    public void setCommodity_status(Integer commodity_status) {
+        this.commodity_status = commodity_status;
     }
 
-    public Integer getAdministratorsId() {
-        return administratorsId;
+    public Integer getAdministrators_id() {
+        return administrators_id;
     }
 
-    public void setAdministratorsId(Integer administratorsId) {
-        this.administratorsId = administratorsId;
+    public void setAdministrators_id(Integer administrators_id) {
+        this.administrators_id = administrators_id;
+    }
+
+
+    public Commoditytype getCommoditytype() {
+        return commoditytype;
+    }
+
+    public void setCommoditytype(Commoditytype commoditytype) {
+        this.commoditytype = commoditytype;
     }
 }
