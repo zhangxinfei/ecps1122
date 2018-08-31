@@ -35,4 +35,10 @@ public class UserServiceImpl implements UserService {
         }
         return result;
     }
+
+    public ResultModel insertByUser(HttpServletRequest request, UserParams userParams) {
+        return null;
+    }
+
+
 }

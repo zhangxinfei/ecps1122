@@ -264,4 +264,22 @@
     from User
     where user_id = #{user_id,jdbcType=INTEGER} AND password = #{password,jdbcType=VARCHAR}
   </select>
+
+  <!--注册-->
+  <insert id="insertByUser" parameterType="cn.itcast.model.params.UserParams">
+    insert into USER (user_name, password,
+      user_iphone, user_qq, user_sex,
+      user_birthday, user_adress, user_school,
+      user_studentId, user_classid, user_credit,
+      user_status, login_state, user_username,
+      create_time, update_time, administrators_id,
+      user_role)
+    values (#{user_name,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
+      #{user_iphone,jdbcType=INTEGER}, #{user_qq,jdbcType=INTEGER}, #{user_sex,jdbcType=VARCHAR},
+      #{user_birthday,jdbcType=TIMESTAMP}, #{user_adress,jdbcType=VARCHAR}, #{user_school,jdbcType=VARCHAR},
+      #{user_studentId,jdbcType=VARCHAR}, #{user_classid,jdbcType=VARCHAR}, #{user_credit,jdbcType=INTEGER},
+      #{user_status,jdbcType=INTEGER}, #{login_state,jdbcType=INTEGER}, #{user_username,jdbcType=VARCHAR},
+      #{create_time,jdbcType=TIMESTAMP}, #{update_time,jdbcType=TIMESTAMP}, #{administrators_id,jdbcType=INTEGER},
+      #{user_role,jdbcType=INTEGER})
+  </insert>
 </mapper>

@@ -8,8 +8,21 @@ import javax.servlet.http.HttpServletRequest;
 
 public interface UserService {
     /**
-     *根据主键查询用户
+     *根据ID和密码查询，登录
      * @Parms request
+     * @params userParams
+     *
     */
-    ResultModel selectByKeyAndPassword(HttpServletRequest request, UserParams user);
+    ResultModel selectByKeyAndPassword(HttpServletRequest request, UserParams userp);
+
+    /**
+     *注册
+     * @Parms request
+     * @parms userParams
+     *
+     */
+    ResultModel insertByUser(HttpServletRequest request, UserParams userParams);
+
+
+
 }

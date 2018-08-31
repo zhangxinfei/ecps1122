@@ -3,6 +3,9 @@ package cn.itcast.util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Created by wxl on 2017/11/21.
+ */
 public class LogUtils {
     /**
      * 错误输入日志
