@@ -41,7 +41,12 @@
 	 <dependency>
 		 <groupId>org.apache.poi</groupId>
 		 <artifactId>poi-ooxml</artifactId>
-		 <version>3.15</version>
+		 <scope>compile</scope>
+	 </dependency>
+	 <dependency>
+		 <groupId>org.apache.poi</groupId>
+		 <artifactId>poi-ooxml-schemas</artifactId>
+		 <scope>compile</scope>
 	 </dependency>
 	 <dependency>
 		 <groupId>xerces</groupId>
@@ -471,16 +476,6 @@
 			<scope>compile</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml-schemas</artifactId>
-			<scope>compile</scope>
-		</dependency>
 
 		<dependency>
 			<groupId>org.apache.cxf</groupId>
@@ -491,10 +486,10 @@
 					<artifactId>spring-core</artifactId>
 					<groupId>org.springframework</groupId>
 				</exclusion>
-				<exclusion>
-					<artifactId>spring-web</artifactId>
-					<groupId>org.springframework</groupId>
-				</exclusion>
+				<!--<exclusion>-->
+					<!--<artifactId>spring-web</artifactId>-->
+					<!--<groupId>org.springframework</groupId>-->
+				<!--</exclusion>-->
 				<exclusion>
 					<artifactId>wstx-asl</artifactId>
 					<groupId>org.codehaus.woodstox</groupId>
@@ -524,12 +519,12 @@
 			<groupId>org.apache.cxf</groupId>
 			<artifactId>cxf-rt-transports-http</artifactId>
 			<scope>compile</scope>
-			<exclusions>
-				<exclusion>
-					<artifactId>spring-web</artifactId>
-					<groupId>org.springframework</groupId>
-				</exclusion>
-			</exclusions>
+			<!--<exclusions>-->
+				<!--<exclusion>-->
+					<!--<artifactId>spring-web</artifactId>-->
+					<!--<groupId>org.springframework</groupId>-->
+				<!--</exclusion>-->
+			<!--</exclusions>-->
 		</dependency>
 		<dependency>
 			<groupId>org.apache.cxf</groupId>
@@ -751,26 +746,26 @@
 			 </exclusion>
 		 </exclusions>
 	 </dependency>
-     <dependency>
-         <groupId>org.springframework</groupId>
-         <artifactId>spring-web</artifactId>
-         <version>4.3.15.RELEASE</version>
-     </dependency>
-     <dependency>
-         <groupId>org.springframework</groupId>
-         <artifactId>spring-web</artifactId>
-         <version>4.3.15.RELEASE</version>
-     </dependency>
-     <dependency>
-         <groupId>org.springframework</groupId>
-         <artifactId>spring-web</artifactId>
-         <version>4.3.15.RELEASE</version>
-     </dependency>
-     <dependency>
-         <groupId>org.springframework</groupId>
-         <artifactId>spring-web</artifactId>
-         <version>4.3.15.RELEASE</version>
-     </dependency>
+     <!--<dependency>-->
+         <!--<groupId>org.springframework</groupId>-->
+         <!--<artifactId>spring-web</artifactId>-->
+         <!--<version>4.3.15.RELEASE</version>-->
+     <!--</dependency>-->
+     <!--<dependency>-->
+         <!--<groupId>org.springframework</groupId>-->
+         <!--<artifactId>spring-web</artifactId>-->
+         <!--<version>4.3.15.RELEASE</version>-->
+     <!--</dependency>-->
+     <!--<dependency>-->
+         <!--<groupId>org.springframework</groupId>-->
+         <!--<artifactId>spring-web</artifactId>-->
+         <!--<version>4.3.15.RELEASE</version>-->
+     <!--</dependency>-->
+     <!--<dependency>-->
+         <!--<groupId>org.springframework</groupId>-->
+         <!--<artifactId>spring-web</artifactId>-->
+         <!--<version>4.3.15.RELEASE</version>-->
+     <!--</dependency>-->
      <dependency>
          <groupId>org.apache.commons</groupId>
          <artifactId>commons-lang3</artifactId>
