@@ -3058,7 +3058,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.maven">
+  <component name="RunManager" selected="Tomcat Server.tomcat7">
     <configuration name="UserServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.itcast.service.UserServiceTest" />
       <module name="ecps-core" />
