@@ -11,8 +11,11 @@
          http://www.springframework.org/schema/aop 
          http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
+<<<<<<< HEAD
 	<!--引入spring和Redis整合的配置文件-->
 	<!--<import resource="spring-redisCluster-test.xml"></import>-->
+=======
+>>>>>>> parent of 85ba1ae... [m]修改了jdk版本到1.8，在pom中加入jdk的依赖，把AOP切面配置好了，配置单机Redis，添加了quartz时间任务管理，DES加密，token登录效验
 	<!--扫描ITcast包-->
 	<context:component-scan base-package="cn.itcast"/>
 	<!--<context:component-scan base-package="cn.itcast.service"/>-->

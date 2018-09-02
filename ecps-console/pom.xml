@@ -26,12 +26,15 @@
 	<!--</profiles>-->
   
   <dependencies>
+<<<<<<< HEAD
 
 	  <dependency>
 		  <groupId>com.fasterxml.jackson.core</groupId>
 		  <artifactId>jackson-databind</artifactId>
 		  <version>2.4.2</version>
 	  </dependency>
+=======
+>>>>>>> parent of 85ba1ae... [m]修改了jdk版本到1.8，在pom中加入jdk的依赖，把AOP切面配置好了，配置单机Redis，添加了quartz时间任务管理，DES加密，token登录效验
 	  <!--日志-->
 	  <dependency>
 		  <groupId>org.slf4j</groupId>
