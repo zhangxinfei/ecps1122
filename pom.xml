@@ -1,3 +1,55 @@
+<!DOCTYPE project [
+		<!ELEMENT project (modelVersion|groupId|artifactId|version|packaging|modules|properties|dependencyManagement|build)*>
+		<!ATTLIST project
+				xmlns CDATA #REQUIRED
+				xmlns:xsi CDATA #REQUIRED
+				xsi:schemaLocation CDATA #REQUIRED>
+		<!ELEMENT modelVersion (#PCDATA)>
+		<!ELEMENT groupId (#PCDATA)>
+		<!ELEMENT artifactId (#PCDATA)>
+		<!ELEMENT version (#PCDATA)>
+		<!ELEMENT packaging (#PCDATA)>
+		<!ELEMENT modules (module)*>
+		<!ELEMENT module (#PCDATA)>
+		<!ELEMENT properties (project.build.sourceEncoding|copyright.year|cxf.version|commons.fileupload.version|commons.io.version|commons.lang.version|spring.version|jbpm.version|cargo.version|jmock.version|jsp.version|junit.version|servlet.version|wiser.version|webtest.version|axis2.version|jdbc.groupId|jdbc.artifactId|jdbc.version|jdbc.driverClassName)*>
+		<!ELEMENT project.build.sourceEncoding (#PCDATA)>
+		<!ELEMENT copyright.year (#PCDATA)>
+		<!ELEMENT cxf.version (#PCDATA)>
+		<!ELEMENT commons.fileupload.version (#PCDATA)>
+		<!ELEMENT commons.io.version (#PCDATA)>
+		<!ELEMENT commons.lang.version (#PCDATA)>
+		<!ELEMENT spring.version (#PCDATA)>
+		<!ELEMENT jbpm.version (#PCDATA)>
+		<!ELEMENT cargo.version (#PCDATA)>
+		<!ELEMENT jmock.version (#PCDATA)>
+		<!ELEMENT jsp.version (#PCDATA)>
+		<!ELEMENT junit.version (#PCDATA)>
+		<!ELEMENT servlet.version (#PCDATA)>
+		<!ELEMENT wiser.version (#PCDATA)>
+		<!ELEMENT webtest.version (#PCDATA)>
+		<!ELEMENT axis2.version (#PCDATA)>
+		<!ELEMENT jdbc.groupId (#PCDATA)>
+		<!ELEMENT jdbc.artifactId (#PCDATA)>
+		<!ELEMENT jdbc.version (#PCDATA)>
+		<!ELEMENT jdbc.driverClassName (#PCDATA)>
+		<!ELEMENT dependencyManagement (dependencies)*>
+		<!ELEMENT dependencies (dependency)*>
+		<!ELEMENT dependency (groupId|artifactId|version|scope|type|exclusions|classifier)*>
+		<!ELEMENT scope (#PCDATA)>
+		<!ELEMENT type (#PCDATA)>
+		<!ELEMENT exclusions (exclusion)*>
+		<!ELEMENT exclusion (artifactId|groupId)*>
+		<!ELEMENT classifier (#PCDATA)>
+		<!ELEMENT build (finalName|plugins)*>
+		<!ELEMENT finalName (#PCDATA)>
+		<!ELEMENT plugins (plugin)*>
+		<!ELEMENT plugin (groupId|artifactId|version|configuration)*>
+		<!ELEMENT configuration (verbose|overwrite|source|target)*>
+		<!ELEMENT verbose (#PCDATA)>
+		<!ELEMENT overwrite (#PCDATA)>
+		<!ELEMENT source (#PCDATA)>
+		<!ELEMENT target (#PCDATA)>
+		]>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -13,20 +65,6 @@
 		<module>ecps-portal</module>
 		<module>ecps-image</module>
 	</modules>
-	<!--<profiles>-->
-		<!--<profile>-->
-			<!--<id>jdk1.8</id>-->
-			<!--<activation>-->
-				<!--<activeByDefault>true</activeByDefault>-->
-				<!--<jdk>1.8</jdk>-->
-			<!--</activation>-->
-			<!--<properties>-->
-				<!--<maven.compiler.source>1.8</maven.compiler.source>-->
-				<!--<maven.compiler.target>1.8</maven.compiler.target>-->
-				<!--<maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>-->
-			<!--</properties>-->
-		<!--</profile>-->
-	<!--</profiles>-->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<copyright.year>2011</copyright.year>
@@ -342,11 +380,11 @@
 				<type>jar</type>
 				<scope>compile</scope>
 			</dependency>
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-pool2</artifactId>
-			<version>2.5.0</version>
-		</dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+            <version>2.4.3</version>
+        </dependency>
 			<dependency>
 				<groupId>commons-validator</groupId>
 				<artifactId>commons-validator</artifactId>

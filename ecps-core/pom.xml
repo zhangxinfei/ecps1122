@@ -68,7 +68,7 @@
 	 <dependency>
 		 <groupId>org.springframework.data</groupId>
 		 <artifactId>spring-data-redis</artifactId>
-		 <version>1.8.4.RELEASE</version>
+		 <version>1.7.2.RELEASE</version>
 	 </dependency>
 	 <dependency>
 		 <groupId>redis.clients</groupId>
@@ -153,6 +153,12 @@
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
 			<scope>compile</scope>
+			<exclusions>
+				<exclusion>
+					<artifactId>commons-codec</artifactId>
+					<groupId>commons-codec</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 		<dependency>
@@ -494,6 +500,10 @@
 					<artifactId>wstx-asl</artifactId>
 					<groupId>org.codehaus.woodstox</groupId>
 				</exclusion>
+				<exclusion>
+					<artifactId>jaxb-impl</artifactId>
+					<groupId>com.sun.xml.bind</groupId>
+				</exclusion>
 			</exclusions>
 		</dependency>
 		<dependency>
@@ -534,6 +544,10 @@
 				<exclusion>
 					<artifactId>wstx-asl</artifactId>
 					<groupId>org.codehaus.woodstox</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>jaxb-impl</artifactId>
+					<groupId>com.sun.xml.bind</groupId>
 				</exclusion>
 			</exclusions>
 		</dependency>
@@ -592,6 +606,26 @@
 					<artifactId>xercesImpl</artifactId>
 					<groupId>xerces</groupId>
 				</exclusion>
+				<exclusion>
+					<artifactId>axiom-api</artifactId>
+					<groupId>org.apache.ws.commons.axiom</groupId>
+				</exclusion>
+                <exclusion>
+                    <artifactId>axiom-impl</artifactId>
+                    <groupId>org.apache.ws.commons.axiom</groupId>
+                </exclusion>
+				<exclusion>
+					<artifactId>XmlSchema</artifactId>
+					<groupId>org.apache.ws.commons.schema</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>wstx-asl</artifactId>
+					<groupId>org.codehaus.woodstox</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>commons-codec</artifactId>
+					<groupId>commons-codec</groupId>
+				</exclusion>
 			</exclusions>
 		</dependency>
 		<dependency>
@@ -614,11 +648,23 @@
 			<groupId>org.apache.axis2</groupId>
 			<artifactId>axis2-adb-codegen</artifactId>
 			<version>1.5.4</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>XmlSchema</artifactId>
+					<groupId>org.apache.ws.commons.schema</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.axis2</groupId>
 			<artifactId>axis2-ant-plugin</artifactId>
 			<version>1.5.4</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>XmlSchema</artifactId>
+					<groupId>org.apache.ws.commons.schema</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.axis2</groupId>
@@ -639,11 +685,27 @@
 			<groupId>org.apache.axis2</groupId>
 			<artifactId>axis2-fastinfoset</artifactId>
 			<version>1.5.4</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>XmlSchema</artifactId>
+					<groupId>org.apache.ws.commons.schema</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>commons-codec</artifactId>
+					<groupId>commons-codec</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.axis2</groupId>
 			<artifactId>axis2-java2wsdl</artifactId>
 			<version>1.5.4</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>XmlSchema</artifactId>
+					<groupId>org.apache.ws.commons.schema</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.axis2</groupId>
@@ -664,6 +726,12 @@
 			<groupId>org.apache.axis2</groupId>
 			<artifactId>axis2-json</artifactId>
 			<version>1.5.4</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>jettison</artifactId>
+					<groupId>org.codehaus.jettison</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.axis2</groupId>

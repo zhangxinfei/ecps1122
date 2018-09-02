@@ -37,5 +37,5 @@ public class UserController {
         logger.info("用户登录—>end");
         return JSON.toJSONString(result,SerializerFeature.WriteMapNullValue);
     }
-    
+
 }

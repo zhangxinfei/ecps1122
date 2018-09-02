@@ -11,7 +11,8 @@
          http://www.springframework.org/schema/aop 
          http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
-	<import resource="spring-redisCluster-test.xml"></import>
+	<!--引入spring和Redis整合的配置文件-->
+	<!--<import resource="spring-redisCluster-test.xml"></import>-->
 	<!--扫描ITcast包-->
 	<context:component-scan base-package="cn.itcast"/>
 	<!--<context:component-scan base-package="cn.itcast.service"/>-->
@@ -38,6 +39,7 @@
 	<bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 		<property name="dataSource" ref="dataSource"></property>
 	</bean>
+
 
 
 	<tx:advice id="txAdvice" transaction-manager="txManager">
