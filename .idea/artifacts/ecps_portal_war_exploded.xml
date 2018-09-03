@@ -171,7 +171,7 @@
           <element id="library" level="project" name="Maven: org.apache.axis2:axis2-xmlbeans:1.5.4" />
           <element id="library" level="project" name="Maven: org.apache.ant:ant-launcher:1.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-annotation_1.0_spec:1.1.1" />
-          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jaxws_2.2_spec:1.0" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jaxws_2.2_spec:unknown" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-ws-metadata_2.0_spec:1.1.2" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-activation_1.1_spec:1.1" />

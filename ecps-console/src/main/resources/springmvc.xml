@@ -2,18 +2,23 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	   xmlns:context="http://www.springframework.org/schema/context"
-	   xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
-	   xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:util="http://www.springframework.org/schema/util"
+	   xmlns:aop="http://www.springframework.org/schema/aop"
+	   xmlns:tx="http://www.springframework.org/schema/tx"
+	   xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xmlns:util="http://www.springframework.org/schema/util"
 	   xsi:schemaLocation="http://www.springframework.org/schema/beans
          http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
          http://www.springframework.org/schema/context
          http://www.springframework.org/schema/context/spring-context-3.0.xsd
          http://www.springframework.org/schema/tx
          http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
-         http://www.springframework.org/schema/aop 
+         http://www.springframework.org/schema/aop
          http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
          http://www.springframework.org/schema/mvc
-         http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+         http://www.springframework.org/schema/mvc/spring-mvc.xsd
+         http://www.springframework.org/schema/util
+         http://www.springframework.org/schema/util/spring-util.xsd"
+	 >
 	<!--扫描器，扫描Controller包-->
 	<context:component-scan base-package="cn.itcast.controller"/>
 
@@ -27,6 +32,8 @@
 	<!--</bean>-->
 	<!--quartz定时任务-->
     <import resource="config-quartz.xml"></import>
+
+
 	<!--处理器映射器和处理器适配器的代替-->
 	<mvc:annotation-driven>
 		<mvc:message-converters>
@@ -34,6 +41,7 @@
 		<property name="supportedMediaTypes">
 		<list>
 		<value>application/json;charset=UTF-8</value>
+			<value>applcation/html;charset=UTF-8</value>
 		</list>
 		</property>
 		</bean>
