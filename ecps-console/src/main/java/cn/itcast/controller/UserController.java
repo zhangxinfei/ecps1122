@@ -31,7 +31,7 @@ public class UserController {
      */
     @RequestMapping(value = "/Login",method = RequestMethod.POST)
     @ResponseBody
-    public String getLoginStatus(HttpServletRequest request,UserParams userParams){
+    public String getLoginStatus(HttpServletRequest request,@RequestBody UserParams userParams){
         logger.info("用户登录->start");
         ResultModel result = userService.selectByKeyAndPassword(request,userParams);
         logger.info("用户登录—>end");
