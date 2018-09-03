@@ -6,67 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fde7f8-b259-4399-be34-de31f247956d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ecps_console_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ecps_console_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ecps_portal_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ecps_portal_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jaxws_2_2_spec_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jaxws_2_2_spec_unknown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/ecps-console.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/ecps-console.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/classes/cn/itcast/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/classes/cn/itcast/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/ecps1122/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/classes/cn/itcast/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/classes/cn/itcast/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/ecps-core-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/ecps-core-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/geronimo-jaxws_2.2_spec-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/ecps-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/ecps-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/enums/WizardAuditEnum$StatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/enums/WizardAuditEnum$StatusEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/enums/WizardAuditEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/enums/WizardAuditEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/AdministratorsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/AdministratorsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/BookMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/CommodityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/CommodityMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/CommoditytypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/CommoditytypeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/DialogueMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/DialogueMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/OrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/ShoppingMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/ShoppingMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Administrators.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Administrators.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commodity.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commodity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commoditytype.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commoditytype.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Dialogue.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Dialogue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Shopping.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Shopping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/AdministratorsParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/AdministratorsParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/BookParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/BookParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/CommodityParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/CommodityParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/CommoditytypeParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/CommoditytypeParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/DialogueParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/DialogueParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/OrderParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/OrderParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/ShoppingParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/ShoppingParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/UserParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/UserParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/result/ResultModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/result/ResultModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/Impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/EcpsConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/EcpsConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/HealthPlanJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/HealthPlanJob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/LogUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/LogUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/MyJobFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/MyJobFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/ResultUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/ResultUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-image/ecps-image.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-image/ecps-image.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-portal/ecps-portal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-portal/ecps-portal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-portal/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps1122.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps1122.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="29fde7f8-b259-4399-be34-de31f247956d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ecps-image/target/" />
     <ignored path="$PROJECT_DIR$/ecps-portal/target/" />
@@ -564,12 +504,12 @@
       <workItem from="1535248025941" duration="1667000" />
       <workItem from="1535329804060" duration="7065000" />
       <workItem from="1535413682123" duration="36642000" />
-      <workItem from="1535866531579" duration="6368000" />
+      <workItem from="1535866531579" duration="6488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66916000" />
+    <option name="totallyTimeSpent" value="67036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

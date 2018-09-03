@@ -19,8 +19,6 @@ import javax.servlet.http.HttpServletRequest;
 public class UserServiceImpl implements UserService {
     @Autowired
     UserMapper userMapper;
-
-
     //    日志
     final static Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
 
