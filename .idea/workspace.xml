@@ -10,90 +10,63 @@
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/ecps_console_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ecps_console_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/ecps_portal_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ecps_portal_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_0_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jaxws_2_2_spec_unknown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jaxws_2_2_spec_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_tuckey_urlrewritefilter_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tuckey_urlrewritefilter_unknown.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/ecps-console.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/ecps-console.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/target/classes/cn/itcast/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/classes/cn/itcast/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/ecps1122/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/classes/cn/itcast/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/classes/cn/itcast/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/classes/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/ecps-core-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/ecps-core-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/spring-aspects-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/spring-context-support-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/spring-jdbc-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/spring-orm-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/spring-tx-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/lib/urlrewritefilter-3.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-console/target/ecps1122/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/ecps-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/ecps-core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/enums/WizardAuditEnum$StatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/enums/WizardAuditEnum$StatusEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/enums/WizardAuditEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/enums/WizardAuditEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/AdministratorsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/AdministratorsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/BookMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/CommodityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/CommodityMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/CommoditytypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/CommoditytypeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/DialogueMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/DialogueMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/OrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/ShoppingMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/ShoppingMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Administrators.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Administrators.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commodity.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commodity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commoditytype.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commoditytype.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Dialogue.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Dialogue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Shopping.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Shopping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/AdministratorsParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/AdministratorsParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/BookParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/BookParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/CommodityParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/CommodityParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/CommoditytypeParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/CommoditytypeParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/DialogueParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/DialogueParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/OrderParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/OrderParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/ShoppingParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/ShoppingParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/UserParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/UserParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/result/ResultModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/result/ResultModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/Impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/EcpsConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/EcpsConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/HealthPlanJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/HealthPlanJob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/LogUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/LogUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/MyJobFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/MyJobFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/ResultUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/ResultUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/UserParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/UserParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/enums/WizardAuditEnum$StatusEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/enums/WizardAuditEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/AdministratorsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/BookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/CommodityMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/CommoditytypeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/DialogueMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/OrderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/ShoppingMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Administrators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commodity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Commoditytype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Dialogue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/Shopping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/AdministratorsParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/BookParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/CommodityParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/CommoditytypeParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/DialogueParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/OrderParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/ShoppingParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/params/UserParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/model/result/ResultModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/Impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/EcpsConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/HealthPlanJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/LogUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/MyJobFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps-core/target/classes/cn/itcast/util/ResultUtil.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-image/ecps-image.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-image/ecps-image.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps-portal/ecps-portal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-portal/ecps-portal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps-portal/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps1122.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps1122.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -131,44 +104,38 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+            <state relative-caret-position="-16">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+            <state relative-caret-position="595">
+              <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/Impl/UserServiceImpl.java">
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="306">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -185,17 +152,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spring-as</find>
-      <find>javax.servl</find>
-      <find>javax.servlet.jsp</find>
-      <find>org.apache.</find>
-      <find>qua</find>
-      <find>spring-s</find>
-      <find>quart</find>
-      <find>ojdbc14</find>
-      <find>com.o</find>
-      <find>spring-context-support</find>
-      <find>javax.servlet</find>
       <find>jsp.version</find>
       <find>javax.servlet-api</find>
       <find>jsp-api</find>
@@ -205,16 +161,27 @@
       <find>json</find>
       <find>mybatis-generator</find>
       <find>mybatis-generator-maven-plugin</find>
-      <find>build</find>
       <find>jackson-c</find>
       <find>jackson</find>
       <find>jaxws_2.</find>
       <find>org.springframework.web.servlet</find>
       <find>spring.ver</find>
-      <find>jackson-</find>
       <find>jdk</find>
       <find>buil</find>
       <find>spring</find>
+      <find>xstream</find>
+      <find>com.fasterxml.jackson.core&lt;</find>
+      <find>com.fasterxml.jackson.core</find>
+      <find>jackson-core-asl</find>
+      <find>jackson-core</find>
+      <find>jackson-databind</find>
+      <find>user_s</find>
+      <find>jackson-</find>
+      <find>url</find>
+      <find>build</find>
+      <find>bu</find>
+      <find>p</find>
+      <find>ali</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -260,10 +227,8 @@
         <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/DialogueMapper.java" />
         <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/OrderMapper.java" />
         <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/mapper/ShoppingMapper.java" />
-        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/UserParams.java" />
         <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/enums/WizardAuditEnum.java" />
         <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/result/ResultModel.java" />
-        <option value="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/ecps-core/src/main/resources/quartz_jobs.xml" />
         <option value="$PROJECT_DIR$/ecps-core/src/main/resources/quartz.properties" />
         <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/util/HealthPlanJob.java" />
@@ -271,16 +236,18 @@
         <option value="$PROJECT_DIR$/ecps-core/src/main/resources/config-quartz.xml" />
         <option value="$PROJECT_DIR$/ecps-console/pom.xml" />
         <option value="$PROJECT_DIR$/ecps-console/src/main/webapp/decorators/default.jsp" />
-        <option value="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ecps-core/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/ecps-core/src/main/resources/generator.propertites" />
         <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/service/Impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml" />
-        <option value="$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/ecps-core/pom.xml" />
         <option value="$PROJECT_DIR$/ecps-portal/pom.xml" />
-        <option value="$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/UserParams.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ecps-core/pom.xml" />
+        <option value="$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -345,6 +312,66 @@
             <path>
               <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecps1122" type="462c0819:PsiDirectoryNode" />
+              <item name="ecps-console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecps1122" type="b2602c69:ProjectViewProjectNode" />
@@ -516,7 +543,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.7">
+    <configuration name="tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -528,6 +555,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_ecps1122_6" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
         <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
@@ -619,12 +647,12 @@
       <workItem from="1535248025941" duration="1667000" />
       <workItem from="1535329804060" duration="7065000" />
       <workItem from="1535413682123" duration="36642000" />
-      <workItem from="1535866531579" duration="11796000" />
+      <workItem from="1535866531579" duration="26020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72344000" />
+    <option name="totallyTimeSpent" value="86568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,7 +665,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50080776" side_tool="true" weight="0.615" />
@@ -650,9 +677,9 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
       <window_info id="UI Designer" order="4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" visible="true" weight="0.083333336" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.30333334" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919224" weight="0.5683333" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919224" weight="0.39666668" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -661,7 +688,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2092084" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2092084" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.26333332" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -690,7 +717,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50080776" side_tool="true" weight="0.615" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919224" weight="0.5683333" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919224" weight="0.08" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -706,7 +733,7 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" visible="true" weight="0.008333334" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" visible="true" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -717,7 +744,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -867,27 +894,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="266" column="9" lean-forward="true" selection-start-line="266" selection-start-column="9" selection-end-line="266" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.0.6.RELEASE/spring-aop-3.0.6.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
           <caret line="170" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/UserParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="184" column="16" selection-start-line="184" selection-start-column="16" selection-end-line="184" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -929,13 +939,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/config-quartz.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -988,9 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/sqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecps-console/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -1002,13 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
-          <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1026,27 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecps-portal/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -1054,17 +1026,148 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/config-quartz.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/cn/itcast/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="266" selection-start-line="266" selection-end-line="266" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        <state relative-caret-position="282">
+          <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/java/cn/itcast/model/params/UserParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1859#1860#0" expanded="true" />
+            <element signature="e#1905#1906#0" expanded="true" />
+            <element signature="e#1943#1944#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
+            <element signature="e#2031#2032#0" expanded="true" />
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2118#2119#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#2215#2216#0" expanded="true" />
+            <element signature="e#2267#2268#0" expanded="true" />
+            <element signature="e#2306#2307#0" expanded="true" />
+            <element signature="e#2341#2342#0" expanded="true" />
+            <element signature="e#2397#2398#0" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
+            <element signature="e#2484#2485#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+            <element signature="e#2573#2574#0" expanded="true" />
+            <element signature="e#2619#2620#0" expanded="true" />
+            <element signature="e#2658#2659#0" expanded="true" />
+            <element signature="e#2692#2693#0" expanded="true" />
+            <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2793#2794#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#2921#2922#0" expanded="true" />
+            <element signature="e#2967#2968#0" expanded="true" />
+            <element signature="e#3007#3008#0" expanded="true" />
+            <element signature="e#3043#3044#0" expanded="true" />
+            <element signature="e#3101#3102#0" expanded="true" />
+            <element signature="e#3151#3152#0" expanded="true" />
+            <element signature="e#3187#3188#0" expanded="true" />
+            <element signature="e#3221#3222#0" expanded="true" />
+            <element signature="e#3273#3274#0" expanded="true" />
+            <element signature="e#3319#3320#0" expanded="true" />
+            <element signature="e#3355#3356#0" expanded="true" />
+            <element signature="e#3389#3390#0" expanded="true" />
+            <element signature="e#3441#3442#0" expanded="true" />
+            <element signature="e#3487#3488#0" expanded="true" />
+            <element signature="e#3532#3533#0" expanded="true" />
+            <element signature="e#3572#3573#0" expanded="true" />
+            <element signature="e#3639#3640#0" expanded="true" />
+            <element signature="e#3697#3698#0" expanded="true" />
+            <element signature="e#3734#3735#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3817#3818#0" expanded="true" />
+            <element signature="e#3859#3860#0" expanded="true" />
+            <element signature="e#3972#3973#0" expanded="true" />
+            <element signature="e#4010#4011#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-console/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecps-console/src/main/resources/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        <state relative-caret-position="306">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-console/src/main/java/cn/itcast/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecps-core/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1102,7 +1205,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3570595" />
               </list>
             </option>
           </splitter-proportions>
@@ -1113,7 +1216,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3570595" />
               </list>
             </option>
           </splitter-proportions>
@@ -1133,7 +1236,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ecps1122</last-edited>
+          <last-edited>ecps-portal</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

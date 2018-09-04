@@ -13,11 +13,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="ecps-console" target="1.7" />
-      <module name="ecps-core" target="1.7" />
-      <module name="ecps-image" target="1.7" />
+      <module name="ecps-console" target="1.8" />
+      <module name="ecps-core" target="1.8" />
+      <module name="ecps-image" target="1.8" />
       <module name="ecps-portal" target="1.7" />
-      <module name="ecps1122" target="1.7" />
+      <module name="ecps1122" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

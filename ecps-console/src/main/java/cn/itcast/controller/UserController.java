@@ -9,10 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -37,4 +34,17 @@ public class UserController {
         logger.info("用户登录—>end");
         return JSON.toJSONString(result,SerializerFeature.WriteMapNullValue);
     }
+
+//    /**
+//     * 用户登录判断
+//     * @return
+//     */
+//    @RequestMapping(value = "/Login",method = RequestMethod.)
+//    @ResponseBody
+//    public String getLoginStatus(HttpServletRequest request,@RequestBody UserParams userParams){
+//        logger.info("用户登录->start");
+//        ResultModel result = userService.selectByKeyAndPassword(request,userParams);
+//        logger.info("用户登录—>end");
+//        return JSON.toJSONString(result,SerializerFeature.WriteMapNullValue);
+//    }
 }

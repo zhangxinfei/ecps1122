@@ -408,13 +408,13 @@
 				<type>jar</type>
 				<scope>compile</scope>
 			</dependency>
-			<!--<dependency>-->
-				<!--<groupId>org.apache.geronimo.specs</groupId>-->
-				<!--<artifactId>geronimo-jaxws_2.2_spec</artifactId>-->
-				<!--<version>1.0</version>-->
-				<!--<type>jar</type>-->
-				<!--<scope>compile</scope>-->
-			<!--</dependency>-->
+			<dependency>
+				<groupId>org.apache.geronimo.specs</groupId>
+				<artifactId>geronimo-jaxws_2.2_spec</artifactId>
+				<version>1.0</version>
+				<type>jar</type>
+				<scope>compile</scope>
+			</dependency>
 			<dependency>
 				<groupId>org.apache.geronimo.specs</groupId>
 				<artifactId>geronimo-stax-api_1.0_spec</artifactId>
@@ -551,13 +551,11 @@
 				</exclusions>
 			</dependency>
 
-			<dependency>
-				<groupId>org.tuckey</groupId>
-				<artifactId>urlrewritefilter</artifactId>
-				<version>3.2.0</version>
-				<type>jar</type>
-				<scope>compile</scope>
-			</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.tuckey</groupId>-->
+			<!--<artifactId>urlrewritefilter</artifactId>-->
+			<!--<version>4.0.3</version>-->
+		<!--</dependency>-->
 			<dependency>
 				<groupId>velocity</groupId>
 				<artifactId>velocity</artifactId>
@@ -890,11 +888,6 @@
 				<type>jar</type>
 				<scope>compile</scope>
 			</dependency>
-		<!--<dependency>-->
-			<!--<groupId>com.fasterxml.jackson.core</groupId>-->
-			<!--<artifactId>jackson-databind</artifactId>-->
-			<!--<version>2.1.4</version>-->
-		<!--</dependency>-->
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-xml</artifactId>
@@ -905,7 +898,12 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>2.9.0</version>
 		</dependency>
-			<dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.9.0</version>
+		</dependency>
+		<dependency>
 				<groupId>org.codehaus.jackson</groupId>
 				<artifactId>jackson-mapper-asl</artifactId>
 				<version>1.9.8</version>
@@ -1037,8 +1035,8 @@
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 		</plugins>

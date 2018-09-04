@@ -16,8 +16,8 @@
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -25,8 +25,7 @@
 
 	<properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-  </properties>
+  	</properties>
 	
  <dependencies>
 	 <!--日志-->
@@ -526,32 +525,32 @@
 			<scope>compile</scope>
 		</dependency>
 
-		<!--<dependency>-->
-			<!--<groupId>org.codehaus.jackson</groupId>-->
-			<!--<artifactId>jackson-jaxrs</artifactId>-->
-			<!--<scope>compile</scope>-->
-		<!--</dependency>-->
-		<!--<dependency>-->
-			<!--<groupId>org.codehaus.jackson</groupId>-->
-			<!--<artifactId>jackson-core-asl</artifactId>-->
-			<!--<scope>compile</scope>-->
-		<!--</dependency>-->
-		<!--<dependency>-->
-			<!--<groupId>org.codehaus.jackson</groupId>-->
-			<!--<artifactId>jackson-core-lgpl</artifactId>-->
-			<!--<scope>compile</scope>-->
-		<!--</dependency>-->
-	 <!---->
-		<!--<dependency>-->
-			<!--<groupId>org.codehaus.jackson</groupId>-->
-			<!--<artifactId>jackson-mapper-asl</artifactId>-->
-			<!--<scope>compile</scope>-->
-		<!--</dependency>-->
-		<!--<dependency>-->
-			<!--<groupId>org.codehaus.jackson</groupId>-->
-			<!--<artifactId>jackson-mapper-lgpl</artifactId>-->
-			<!--<scope>compile</scope>-->
-		<!--</dependency>-->
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-jaxrs</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-core-asl</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-core-lgpl</artifactId>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-lgpl</artifactId>
+			<scope>compile</scope>
+		</dependency>
 
 		<dependency>
 			<groupId>org.apache.axis2</groupId>

@@ -33,13 +33,6 @@
 	<!--</bean>-->
 	<!--quartz定时任务-->
     <import resource="config-quartz.xml"></import>
-	<!--<mvc:annotation-driven>-->
-		<!--<mvc:message-converters>-->
-			<!--<bean class="org.example.MyHttpMessageConverter"/>-->
-			<!--<bean class="org.example.MyOtherHttpMessageConverter"/>-->
-		<!--</mvc:message-converters>-->
-	<!--</mvc:annotation-driven>-->
-
 	<!--处理器映射器和处理器适配器的代替-->
 	<mvc:annotation-driven>
 		<mvc:message-converters>
@@ -53,7 +46,6 @@
 		</mvc:message-converters>
 	</mvc:annotation-driven>
 
-	<mvc:annotation-driven/>
 	<!--视图解析器 解析jsp视图-->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<!--配置jsp路径前缀-->

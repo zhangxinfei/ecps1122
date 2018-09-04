@@ -55,22 +55,13 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
-
 	<!--<filter>-->
-		<!--<filter-name>sitemesh</filter-name>-->
-		<!--<filter-class>com.opensymphony.module.sitemesh.filter.PageFilter</filter-class>-->
+		<!--<filter-name>UrlRewriteFilter</filter-name>-->
+		<!--<filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>-->
 	<!--</filter>-->
-
 	<!--<filter-mapping>-->
-		<!--<filter-name>sitemesh</filter-name>-->
-		<!--<url-pattern>*.do</url-pattern>	-->
-		<!--<dispatcher>REQUEST</dispatcher>-->
-		<!--<dispatcher>FORWARD</dispatcher>-->
-	<!--</filter-mapping>-->
-
-	<!--<filter-mapping>-->
-		<!--<filter-name>sitemesh</filter-name>-->
-		<!--<url-pattern>*.jsp</url-pattern>-->
+		<!--<filter-name>UrlRewriteFilter</filter-name>-->
+		<!--<url-pattern>/*</url-pattern>-->
 		<!--<dispatcher>REQUEST</dispatcher>-->
 		<!--<dispatcher>FORWARD</dispatcher>-->
 	<!--</filter-mapping>-->

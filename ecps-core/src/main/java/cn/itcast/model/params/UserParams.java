@@ -1,11 +1,9 @@
 package cn.itcast.model.params;
 
-import cn.itcast.model.User;
 
 import java.util.Date;
 
 public class UserParams {
-//    private User user;
 
     private Integer user_id;
 
@@ -197,12 +195,4 @@ public class UserParams {
     public void setUser_id(Integer user_id) {
         this.user_id = user_id;
     }
-
-//    public User getUser() {
-//        return user;
-//    }
-//
-//    public void setUser(User user) {
-//        this.user = user;
-//    }
 }
